@@ -1,17 +1,17 @@
 <?php include 'header.php';?>
 
     <div class="container-fluid">
-        <div class="container d-flex justify-content-center text-center">
-            <a href=""><h1>Comprar pelo <strong class="px-1">WhatsApp</strong></h1></a>
+        <div class="container whatsapp-box d-flex justify-content-center text-center my-4">
+            <a class="d-flex" href="#"><img src="img/svg/whatsapp.svg"/><h1>Comprar pelo <strong class="px-1">WhatsApp</strong></h1></a>
         </div>
     </div>
 
     <div class="container-fluid">
-        <div class="container d-flex justify-content-center text-center blue-border p-4">
+        <div class="container d-flex justify-content-center align-items-center text-center blue-border p-3">
             <div class="col-6">
                 <div class="col-12">
-                    <h1>Sofá <strong class="px-1">Moma</strong></h1>
-                    <p>R$5.000 à vista</p>
+                    <h1 class="m-0 p-0">Sofá <strong class="px-1">Moma</strong></h1>
+                    <p class="p-0 m-0">R$5.000 à vista</p>
                 </div>
             </div>
             <div class="col-6">
@@ -21,11 +21,12 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    
+    <div class="container-fluid py-32">
         <div class="container d-flex justify-content-center text-center">
-            <h1>Personalize seu moma</h1>
+            <h1 class="title"><strong>Personalize</strong> seu moma</h1>
         </div>
-        <?php include 'configuracao.php';?>
+        <?php include 'configuracao2.php';?>
     </div>
 
     <div class="container-fluid">
@@ -38,7 +39,7 @@
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong class="px-1">Item</strong>
+                        <?php include 'accordion-items.php';?>
                     </div>
                 </div>
             </div>
@@ -50,7 +51,7 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong class="px-1">Item</strong>
+                        <?php include 'accordion-items.php';?>
                     </div>
                 </div>
             </div>
@@ -62,34 +63,34 @@
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong class="px-1">Item</strong>
+                        <?php include 'accordion-items.php';?>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid py-32">
         <div class="container d-flex justify-content-center text-center">
-            <h1>Inspirações do MOMA</h1>
+            <h1 class="title"><strong>Inspirações</strong> do MOMA</h1>
         </div>
         <?php include 'configuracao.php';?>
     </div>
 
     <div class="container-fluid">
-        <img class="w-100" src="../img/jovemsofa.jpg"/>
+        <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
     </div>
     <div class="container-fluid">
-        <img class="w-100" src="../img/jovemsofa.jpg"/>
+        <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
     </div>
     <div class="container-fluid">
-        <img class="w-100" src="../img/jovemsofa.jpg"/>
+        <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
     </div>
     <div class="container-fluid">
-        <img class="w-100" src="../img/jovemsofa.jpg"/>
+        <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
     </div>
     <div class="container-fluid">
-        <img class="w-100" src="../img/jovemsofa.jpg"/>
+        <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
     </div>
 
     <?php include 'perguntas.php';?>
