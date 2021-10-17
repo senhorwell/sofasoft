@@ -8,7 +8,7 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <?php include 'accordion-items.php';?>
+                    <p>item</p>
                 </div>
             </div>
         </div>
@@ -20,7 +20,7 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <?php include 'accordion-items.php';?>
+                    <p>item</p>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <?php include 'accordion-items.php';?>
+                    <p>item</p>
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <?php include 'accordion-items.php';?>
+                    <p>item</p>
                 </div>
             </div>
         </div>

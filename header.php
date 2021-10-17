@@ -2,6 +2,8 @@
     <head>
         <title>Soft</title>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
@@ -21,4 +23,3 @@
         <script src="js/app.js"></script>
     </head>
     <body>
-    <?php include 'menu.php';?>

@@ -1,4 +1,4 @@
-<div id="footer" class="container-fluid pb-32 mt-4 px-0 mx-0">
+<div id="footer" class="container-fluid pb-32 px-0 mx-0">
     <div class="logo d-flex">
         <div class="container d-flex justify-content-center">
             <div class="col-12 col-md-5 py-5 d-flex justify-content-center align-items-center">

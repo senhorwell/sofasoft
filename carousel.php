@@ -1,4 +1,4 @@
-<div class="container text-center my-5">
+<div class="container text-center py-32">
     <h1 class="title">Você merece <strong>qualidade, conforto</strong> e <strong>estilo!</strong></h1>
     <div class="owl-carousel owl-theme">
         <div class="item d-flex justify-content-center align-items-center">

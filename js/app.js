@@ -55,6 +55,9 @@ $(document).ready(function() {
         $(this).addClass('selected');
     });
 
+    $('#style').change(function() {
+        window.location = '#' + $('#style').find(":selected").val(); // redirect
+    });
 });
 
 function menuResize() {

@@ -1,128 +1,70 @@
 <?php include 'header.php';?>
-
-<div class="container my-4">
-    <div class="col-12 blue-border p-4 d-flex justify-content-between ">
-        <h1><strong class="px-1">Escolha</strong>o estilo</h1>
-        <a href="step1.php"><h1>Começar</h1></a>
-    </div>
+<?php include 'message.php';?>
+<div class="container-fluid px-0 mx-0" style="margin-top:65px">
+    <?php include 'menu.php';?>
 </div>
-<?php include 'carousel.php';?>
 
-<div class="container my-4">
-    <div class="blue-border p-4 text-center">
-        <h1 class="font-weight-bold">Comece a sua jornada e descubra o sofá perfeito para você!</h1>
-        <div class="d-flex flex-column steps pt-3">
-            <a><h1>Escolha o estilo</h1></a>
-            <a><h1>Personalize</h1></a>
-            <a><h1>Experimente</h1></a>
+    <div class="container-fluid py-32 px-0">
+        <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
+            <img src="img/img/step1.png"/>
         </div>
-        <div class="d-flex justify-content-center text-center">
-            <div class="col-12">
-                <button class="btn-colored-border">Começar agora</button>
+        <div class="container d-flex justify-content-center align-items-center text-center">
+            <a href="step2_1.php"><h1 class="title"><strong>Escolha</strong><br> o estilo</h1></a>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center text-center">
+            <a class="arrow-down" href="step2_1.php"><img src="img/svg/down.svg"/></a>
+        </div>
+    </div>
+
+    <div id="moma" class="container-fluid bg-black py-32 px-0">
+        <div class="container d-flex justify-content-center pb-32 text-center flex-column">
+            <h1>Moma</h1>
+            <p>Para quem ama design e não abre mão do conforto.</p>
+            <div class="container d-flex justify-content-center">
+                <a href="step2_1.php" class="px-2">Saiba mais ></a>
+                <a href="step2_1.php" class="px-2">Personalizar ></a>
             </div>
         </div>
+        <?php include 'configuracao.php';?>
     </div>
-    <h1 class="my-5 text-center"><strong class="px-1">Pesquisa durante anos,</strong>fizemos testes e criamos os sofás mais confortáveis, mais resistentes, com tudo o que você precisa e o melhor de tudo, <strong class="px-1">custando até a metade do preço.</strong></h1>
-</div>
 
-<div class="container-fluid bg-gray p-0">
-    <div class="container d-flex justify-content-center py-32 text-center flex-column">
-        <h1 class="title">Problemas reais</h1>
-        <h1 class="title"><strong>soluções criativas.</strong></h1>
-    </div>
-    <?php include 'carousel_with_text.php';?>
-    <div class="d-flex justify-content-center text-center py-32">
-        <div class="col-12">
-            <button class="btn-colored">Monte o seu</button>
-        </div>
-    </div>
-</div>
-
-<div class="container py-32">
-    <div class="blue-border p-4 text-center">
-        <h1 class="title"><strong>Experimente</strong> os sofas <strong>antes</strong> de comprar</h1>
-        <p>A soft Guide shop é uma loja de experimentação criada especialmente para você conhecer e testar tudo o que precisa antes de comprar seu novo sofá.</p>
-        <div class="d-flex justify-content-center text-center">
-            <div class="col-12">
-                <button class="btn-colored-border">Agende sua visita</button>
+    <div id="clausi" class="container-fluid py-32 px-0">
+        <div class="container d-flex justify-content-center pb-32 text-center flex-column">
+            <h1>Clausi</h1>
+            <p>Para os minimalistas de plantão.</p>
+            <div class="container d-flex justify-content-center">
+                <a href="step2_1.php" class="px-2">Saiba mais ></a>
+                <a href="step2_1.php" class="px-2">Personalizar ></a>
             </div>
         </div>
+        <?php include 'configuracao.php';?>
     </div>
-</div>
 
-<div class="container-fluid py-32 bg-gray">
-    <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
-    <h1 class="title pt-32 text-center"><strong>Enviamos amostras</strong> grátis <strong> de tecidos </strong></h1>
-    <p class="text-center">Selecione três opções de tecido e receba-os no conforto de sua casa, em até 5 dias úteis.</p>
-    <div class="d-flex justify-content-center text-center">
-        <div class="col-12">
-            <button class="btn-colored">Solicite sua amostra grátis</button>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid py-32">
-    <h1 class="title text-center"><strong>Personalizado para</strong> sua sala e <strong> seu bolso </strong></h1>
-    <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
-    <p class="text-center py-3">Escolha o estilo, medida, tecido e acessórios que desejar, e ainda visualize, por todos os ângulos, antes de decidir.</p>
-    <div class="d-flex justify-content-center text-center">
-        <div class="col-12">
-            <button class="btn-colored">Começar</button>
-        </div>
-    </div>
-</div>
-
-<?php include 'avaliacao.php';?>
-
-<div class="container-fluid py-32">
-    <h1 class="title text-center"><strong>Almofadas afundaram?</strong></h1>
-    <h1 class="title text-center pb-32">Nhec Nhec apareceu!</h1>
-    <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
-    <p class="text-center pt-32">Já comprou um sofá bonito, mas que em pouco tempo estranhos começaram a aparecer e o conforto sumiu rapidinho?</p>
-    <p class="text-center"><strong class="px-1">Isso aconteceu comigo.</strong></p>
-    <p class="text-center">Então descobri que, para terem preços baixos e muitos sofás possuem, por dentro, materiais de baixíssima qualidade.</p>
-    <div class="d-flex justify-content-center text-center">
-        <div class="col-12">
-            <button class="btn-colored">Monte o seu</button>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid bg-gray">
-    <h1 class="text-center title py-32"><strong>Qualidade</strong> garantida</h1>
-    <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
-    <p class="text-center pt-32">Por isso, criamos a SofaSoft, uma marca nascida digital, que sem os custos dos intermediarios, <strong class="px-1">consegue produzir os sofas mais confortáveis do mercaodo,</strong>com altíssima resistência e durabilidade <strong class="px-1">a preços democráticos.</strong></p>
-    <p class="text-center">Nossos sofás utilizam <strong class="px-1">matérias-primas especiais,</strong>encontradas apenas nos sofás mais sofisticados do mercado, deixando-os confortáveis, sem barulho e com <strong class="px-1">aparência de novo por muito mais tempo.</strong></p>
-    <div class="d-flex justify-content-center text-center">
-        <div class="col-12">
-            <button class="btn-colored">Monte o seu</button>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid py-32">
-    <h1 class="text-center title">Conforto <strong>incomparável,</strong> do jeito que você gosta.</h1>
-    <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
-</div>
-
-<div class="container text-center pb-32">
-    <div class="blue-border p-4">
-        <h1>Flutuante</h1>
-        <p>Sensação relaxante com movimento levemente flutuante.</p>
-        <p>As molas ensacadas individualmente suavizam o balanço para não interferir no outro lado do assento.</p>
-        <div class="d-flex justify-content-center text-center pb-4">
-            <div class="col-4">
-                <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
+    <div id="tuim" class="container-fluid bg-tuim py-32 px-0">
+        <div class="container d-flex justify-content-center pb-32 text-center flex-column">
+            <h1>Tuim</h1>
+            <p>O clássico amigão do Netflix</p>
+            <div class="container d-flex justify-content-center">
+                <a href="step2_1.php" class="px-2">Saiba mais ></a>
+                <a href="step2_1.php" class="px-2">Personalizar ></a>
             </div>
         </div>
-        <p>Molas ensacadas + espuma D32 soft + manta siliconada 400g</p>
-        <div class="d-flex justify-content-center text-center">
-            <div class="col-12">
-                <button class="btn-colored-border">Monte o seu</button>
-            </div>
+        <?php include 'configuracao.php';?>
+    </div>
+
+    
+
+    <div id="comparando" class="container-fluid py-32">
+        <div class="container d-flex justify-content-center text-center">
+            <h1 class="title"><strong>Comparando</strong> os estilos</h1>
+        </div>
+        <div class="container blue-border p-4">
+           <h1 class="title text-center"><strong>Medida mínima</strong></h1>
+           <?php include 'medidas.php';?>
         </div>
     </div>
-</div>
+    
+    <?php include 'consultor.php';?>
+    <?php include 'consultor_pessoal.php';?>
 
 <?php include 'footer.php';?>
-        

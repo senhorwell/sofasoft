@@ -16,17 +16,17 @@
             </div>
             <div class="col-6">
                 <div class="col-12">
-                    <a href="">Experimentar</a>
+                    <a href="step3.php">Experimentar</a>
                 </div>
             </div>
         </div>
     </div>
     
-    <div class="container-fluid py-32">
+    <div class="container-fluid py-32 px-0 m-0">
         <div class="container d-flex justify-content-center text-center">
             <h1 class="title"><strong>Personalize</strong> seu moma</h1>
         </div>
-        <?php include 'configuracao3.php';?>
+        <?php include 'configuracao.php';?>
     </div>
 
     <div class="container-fluid">
@@ -128,27 +128,27 @@
         </div>
     </div>
 
-    <div class="container-fluid py-32">
+    <div class="container-fluid py-32 px-0 m-0">
         <div class="container d-flex justify-content-center text-center">
             <h1 class="title"><strong>Inspirações</strong> do MOMA</h1>
         </div>
-        <?php include 'configuracao3.php';?>
+        <?php include 'configuracao.php';?>
     </div>
 
-    <div class="container-fluid">
-        <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
+    <div class="container-fluid px-0 m-0">
+        <img class="w-100" src="img/img/sofa1.png"/>
     </div>
-    <div class="container-fluid">
-        <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
+    <div class="container-fluid px-0 m-0">
+        <img class="w-100" src="img/img/sofa1.png"/>
     </div>
-    <div class="container-fluid">
-        <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
+    <div class="container-fluid px-0 m-0">
+        <img class="w-100" src="img/img/sofa1.png"/>
     </div>
-    <div class="container-fluid">
-        <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
+    <div class="container-fluid px-0 m-0">
+        <img class="w-100" src="img/img/sofa1.png"/>
     </div>
-    <div class="container-fluid">
-        <img class="w-100" src="https://www.tilelook.com/system/tile_picture/resource/2336209/d3d_default_Pure_MA_Grey_60x60_FGYT660GR1.jpg"/>
+    <div class="container-fluid px-0 m-0">
+        <img class="w-100" src="img/img/sofa1.png"/>
     </div>
 
     <?php include 'perguntas.php';?>
