@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Raleway';
-    src: url('/font/raleway-regular.woff2') format('woff2');
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
     margin: 0;
@@ -424,7 +421,7 @@ h1.title strong {
     line-height: 4rem;
 }
 
-#message select {
+#message a {
     border: none;
     width: 100%;
     background: #3c72b0;
