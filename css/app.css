@@ -494,3 +494,8 @@ h1.title strong {
     background-size: cover;
     height: 492px;
 }
+
+.ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+}

@@ -31,7 +31,7 @@ $(document).ready(function() {
     $('.owl-carousel').owlCarousel({
         loop: true,
         center: true,
-        items: 2,
+        items: 1,
         margin: 10,
         nav: false,
         dots: false,
@@ -48,6 +48,15 @@ $(document).ready(function() {
         }
     })
 
+    function rgt() {
+        $('#costurando').animate({ left: "500" }, 10000, hider);
+    }
+    rgt();
+
+    function hider() {
+        $('#costurando').css('left', '0px');
+        rgt();
+    }
 
     $('.radio-group .radio').click(function() {
         $('.selected .fa').removeClass('fa-check');
@@ -58,6 +67,7 @@ $(document).ready(function() {
     $('#style').change(function() {
         window.location = '#' + $('#style').find(":selected").val(); // redirect
     });
+
 });
 
 function menuResize() {

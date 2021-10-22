@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<?php include 'price.php';?>
+<?php include 'message.php';?>
 <div class="container-fluid px-0 mx-0" style="margin-top:65px">
     <?php include 'menu.php';?>
 </div>
@@ -389,9 +389,10 @@
         <h1 class="title px-3"><strong>O dobro de espuma</strong><br> dos sofás<br> tradicionais</h1>
 
         <div class="col-6 px-3">
-            <p class="pt-5 fst-italic">"As espumas definem o conforto e a durabilidade de um sofá"</p>
 
-            <p>Daniel N. Filho</p>
+            <p class="pt-5 fst-italic ml3">"As espumas definem o conforto e a durabilidade de um sofá"</p>
+
+            <p class="p-0 m-0">Daniel N. Filho</p>
             <p class="fw-bold">Co-founder Soft</p>
         </div>
     </div>
@@ -399,16 +400,15 @@
 
 <div id="costurando" class="container-fluid px-0 m-0 py-32">
     <div class="container d-flex justify-content-end text-end flex-column">
-        <h1 class="text-light px-3">Suporta pessoas de</h1>
+        <h1 class="text-light px-3">Suporta<br> pessoas de</h1>
         <h1 class="px-3 title fw-bold"><strong>145kg</strong><br></h1>
 
-        <div class="col-6 offset-6">
-            <p class="pt-5 text-light">Aprovado em laboratório de qualidade especializado, e testes de <strong>10
-                    mil</strong> ciclos.</p>
-
-            <p class="text-light p-0 m-0"><strong>9 anos</strong> sentando-se</p>
-            <p class="fw-bold text-light">3 vezes ao dia</p>
-        </div>
+            <div class="col-6 offset-6">
+                <p class="pt-5 text-light">Aprovado em laboratório de qualidade especializado, e testes de <strong>10
+                        mil</strong> ciclos.</p>
+                <p class="text-light p-0 m-0"><strong>9 anos</strong> sentando-se</p>
+                <p class="fw-bold text-light">3 vezes ao dia</p>
+            </div>
     </div>
 </div>
 <div class="container-fluid px-0 m-0">
@@ -440,5 +440,8 @@
 
 <?php include 'perguntas.php';?>
 <?php include 'form.php';?>
+
+<script src="js/visibility.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 <?php include 'footer.php';?>
