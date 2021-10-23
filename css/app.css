@@ -69,7 +69,7 @@ h1.title strong {
     border-radius: 100px;
     padding: 16px 32px;
     font-size: 16px !important;
-    background: #5ea5ff;
+    background: #3c72b0;
     color: white;
 }
 
@@ -495,4 +495,46 @@ h1.title strong {
 .ml3 {
     font-weight: 900;
     font-size: 3.5em;
+}
+
+#meusofa button {
+    font-size: 24px !important;
+}
+
+#meusofa .meusofa-item {
+    line-height: 2rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#meusofa .meusofa-item .title {
+    margin: 0px !important;
+}
+
+#meusofa .meusofa-item .subtitle {
+    color: #b0c6d0;
+    font-size: 12px !important;
+}
+
+#propaganda-card img {
+    width: 30px;
+}
+
+#propaganda-card .fw-bold {
+    margin: 0px !important;
+}
+
+.footer-experiment {
+    padding: 40px 0px !important;
+    border-top: 1px solid #ccc;
+}
+
+.footer-experiment img {
+    width: 30px;
+    
+}
+
+p.compre {
+    color: #3c72b0;
+    font-weight: bold;
+    padding: 10px;
 }
