@@ -3,7 +3,7 @@
         <div class="container d-flex justify-content-center">
             <div class="col-12 col-md-5 py-5 d-flex justify-content-center align-items-center">
                 <div class="col-3 text-center">
-                    <img src="img/svg/logo.svg" class="w-100 logo" />
+                    <img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/logo.svg" class="w-100 logo" />
                 </div>
             </div>
         </div>
@@ -12,7 +12,7 @@
         <div class="location col-12 col-md-3 pt-4 pb-3">
             <div class="d-flex justify-content-center align-items-center text-center flex-column">
                 <div class="col-2">
-                    <img src="img/svg/location.svg" class="w-100" />
+                    <img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/location.svg" class="w-100" />
                 </div>
                 <p class="m-0"><strong class="px-1">Endereço</strong></p>
                 <p>Londrina - PR</p>
@@ -21,7 +21,7 @@
         <div class="atendimento col-12 col-md-3 py-3">
             <div class="d-flex justify-content-center align-items-center text-center flex-column">
                 <div class="col-2">
-                    <img src="img/svg/clock.svg" class="w-100" />
+                    <img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/clock.svg" class="w-100" />
                 </div>
                 <p class="m-0"><strong class="px-1">Horário de Atendimento</strong></p>
                 <p class="m-0">24h todos os dias, resolvemos na hora</p>
@@ -31,7 +31,7 @@
         <div class="faleconosco col-12 col-md-3 py-3">
             <div class="d-flex justify-content-center align-items-center text-center flex-column">
                 <div class="col-2">
-                    <img src="img/svg/message.svg" class="w-100" />
+                    <img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/message.svg" class="w-100" />
                 </div>
                 <p class="m-0"><strong class="px-1">Fale Conosco</strong></p>
                 <p class="m-0">WhatsApp: 43 9 9102 5502</p>

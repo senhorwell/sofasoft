@@ -3,7 +3,7 @@
         <div class="col-3 col-md-12">
             <div class="col-2 d-none d-md-block">
                 <a href="#" class="w-100">
-                    <img class="logo" src="img/svg/logo.svg"/>
+                    <img class="logo" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/logo.svg"/>
                 </a>
             </div>
             <div class="col-12 col-md-10 d-md-none">
@@ -15,7 +15,7 @@
         </div>
         <div class="col-6 d-block d-md-none">
             <a href="/" class="w-100 h-100 d-flex justify-content-center aligns-items-center">
-                <img class="logo" src="img/svg/logo.svg"/>
+                <img class="logo" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/logo.svg"/>
             </a>
         </div>
         <div class="col-3 d-flex d-md-none">

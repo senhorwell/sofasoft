@@ -6,5 +6,5 @@
         <a href="#">Agendar demonstração online ></a>
     </div>
 
-    <img class="w-100" src="img/img/phone.png" />
+    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/phone.png" />
 </div>

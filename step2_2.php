@@ -12,14 +12,14 @@
 </div>
 
 <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
-    <img src="img/img/step2.png" />
+    <img src="https://www.fronte.net.br/clientes/sofasoft/img/img/step2.png" />
 </div>
 <div class="container d-flex justify-content-center text-center">
     <h1 class="title">Personalize seu<br> <strong>moma</strong></h1>
 </div>
 <div class="container-fluid whatsapp-container position-fixed bottom-0">
     <div class="container whatsapp-box d-flex justify-content-center  text-center my-4">
-        <a class="d-flex" href="http://wa.me/554399514569" target="_blank"><img src="img/svg/whatsapp.svg" />
+        <a class="d-flex" href="http://wa.me/554399514569" target="_blank"><img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/whatsapp.svg" />
             <h1>Comprar pelo <strong class="px-1">WhatsApp</strong></h1>
         </a>
     </div>
@@ -256,10 +256,10 @@
 
 <div class="container-fluid px-0 m-0 py-32 bg-gray">
     <div class="container d-flex justify-content-center text-center">
-        <button class="btn-colored d-flex justify-content-between">
+        <a href="experimente.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
             <span class="cart-icon"></span>
             Experimentar
-        </button>
+        </a>
     </div>
 
     <div class="container d-flex justify-content-center text-center py-32 flex-column px-3">
@@ -272,7 +272,7 @@
 
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
-        <img style="width:50px" src="/img/svg/truck.svg" />
+        <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/truck.svg" />
         <h1 class="text-dark fw-bold text-center">Frete grátis</h1>
         <p class="text-center">para diversos estados do Brasil</p>
         <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#freteModal">Saiba mais ></button>
@@ -291,7 +291,7 @@
     </div>
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
-        <img style="width:50px" src="/img/svg/casa.svg" />
+        <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/casa.svg" />
         <h1 class="text-dark fw-bold text-center px-5">10 dias para experimentar</h1>
         <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
         <div class="modal fade" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
@@ -309,7 +309,7 @@
     </div>
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
-        <img style="width:50px" src="/img/svg/selo.svg" />
+        <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/selo.svg" />
         <h1 class="text-dark fw-bold text-center px-5">2 anos de garantia</h1>
         <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#garantiaModal">Saiba mais
             ></button>
@@ -329,7 +329,7 @@
     </div>
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
-        <img style="width:50px" src="/img/svg/chat.svg" />
+        <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/chat.svg" />
         <h1 class="text-dark fw-bold text-center px-5">Ajuda para comprar</h1>
         <p class="text-center p-0 m-0">Comnverse com um especialista online ou ligue para:</p>
         <a href="tel:5543991025500">(43) 9 9102-5500</a>
@@ -350,10 +350,10 @@
     </div>
 
     <div class="container d-flex justify-content-center text-center">
-        <button class="btn-colored d-flex justify-content-between">
+        <a href="experimente.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
             <span class="cart-icon"></span>
             Experimentar
-        </button>
+        </a>
     </div>
 </div>
 <div id="duvida" class="container-fluid px-0 m-0 py-32">
@@ -393,19 +393,19 @@
     </div>
 </div>
 <div class="container-fluid px-0 m-0">
-    <img class="w-100" src="img/img/sofa1.png" />
+    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png" />
 </div>
 <div class="container-fluid px-0 m-0">
-    <img class="w-100" src="img/img/sofa1.png" />
+    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png" />
 </div>
 <div class="container-fluid px-0 m-0">
-    <img class="w-100" src="img/img/sofa1.png" />
+    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png" />
 </div>
 <div class="container-fluid px-0 m-0">
-    <img class="w-100" src="img/img/sofa1.png" />
+    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png" />
 </div>
 <div class="container-fluid px-0 m-0">
-    <img class="w-100" src="img/img/sofa1.png" />
+    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png" />
 </div>
 
 <?php include 'avaliacao.php';?>

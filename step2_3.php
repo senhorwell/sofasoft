@@ -2,7 +2,7 @@
 
     <div class="container-fluid">
         <div class="container whatsapp-box d-flex justify-content-center text-center my-4">
-            <a class="d-flex" href="#"><img src="img/svg/whatsapp.svg"/><h1>Comprar pelo <strong class="px-1">WhatsApp</strong></h1></a>
+            <a class="d-flex" href="#"><img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/whatsapp.svg"/><h1>Comprar pelo <strong class="px-1">WhatsApp</strong></h1></a>
         </div>
     </div>
 
@@ -136,19 +136,19 @@
     </div>
 
     <div class="container-fluid px-0 m-0">
-        <img class="w-100" src="img/img/sofa1.png"/>
+        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png"/>
     </div>
     <div class="container-fluid px-0 m-0">
-        <img class="w-100" src="img/img/sofa1.png"/>
+        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png"/>
     </div>
     <div class="container-fluid px-0 m-0">
-        <img class="w-100" src="img/img/sofa1.png"/>
+        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png"/>
     </div>
     <div class="container-fluid px-0 m-0">
-        <img class="w-100" src="img/img/sofa1.png"/>
+        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png"/>
     </div>
     <div class="container-fluid px-0 m-0">
-        <img class="w-100" src="img/img/sofa1.png"/>
+        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png"/>
     </div>
 
     <?php include 'perguntas.php';?>

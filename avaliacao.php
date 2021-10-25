@@ -7,19 +7,19 @@
 
                 <div class="d-flex pt-4 pb-2 col-12 justify-content-center">
                     <div class="col-1">
-                        <img class="w-100" src="img/svg/star.svg"/>
+                        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/star.svg"/>
                     </div>
                     <div class="col-1">
-                        <img class="w-100" src="img/svg/star.svg"/>
+                        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/star.svg"/>
                     </div>
                     <div class="col-1">
-                        <img class="w-100" src="img/svg/star.svg"/>
+                        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/star.svg"/>
                     </div>
                     <div class="col-1">
-                        <img class="w-100" src="img/svg/star.svg"/>
+                        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/star.svg"/>
                     </div>
                     <div class="col-1">
-                        <img class="w-100" src="img/svg/star.svg"/>
+                        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/star.svg"/>
                     </div>
                 </div>
                 <p class="text-center">Os sofás são muito confortáveis e bonitos, com estética limpa e moderna. Fiquei admiriado também com toda tecnologia envolvida, dos carregadores USB aos tipos de tecido.</p>

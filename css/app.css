@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-
 body {
     margin: 0;
     font-family: 'Raleway', Arial, Helvetica;
@@ -71,7 +70,7 @@ h1.title strong {
     padding: 16px 32px;
     font-size: 16px !important;
     background: #3c72b0;
-    color: white;
+    color: white !important;
 }
 
 .btn-colored-border {
@@ -132,7 +131,7 @@ h1.title strong {
 }
 
 .owl-next {
-    background: url(/img/svg/next.svg) !important;
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/next.svg) !important;
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -142,7 +141,7 @@ h1.title strong {
 }
 
 .owl-prev {
-    background: url(/img/svg/prev.svg) !important;
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/prev.svg) !important;
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -244,8 +243,7 @@ h1.title strong {
 }
 
 .accordion-button::after {
-    background: url(/img/svg/next.svg);
-    background: url(/img/svg/next.svg) !important;
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/next.svg) !important;
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -254,7 +252,6 @@ h1.title strong {
 
 .accordion-button:not(.collapsed)::after {
     transform: rotate(-90deg);
-
 }
 
 .bg-gray .accordion-header,
@@ -304,7 +301,7 @@ h1.title strong {
     width: 30px !important;
 }
 
-.fa{
+.fa {
     color: #000;
 }
 
@@ -327,27 +324,26 @@ h1.title strong {
     position: relative;
 }
 
-@media(min-width: 400px) and (max-width: 500px){
+@media(min-width: 400px) and (max-width: 500px) {
     .card {
         width: 300px;
         height: 300px;
     }
 }
 
-@media(min-width: 500px) and (max-width: 600px){
+@media(min-width: 500px) and (max-width: 600px) {
     .card {
         width: 400px;
         height: 400px;
     }
 }
 
-@media(min-width: 601px){
+@media(min-width: 601px) {
     .card {
         width: 500px;
         height: 500px;
     }
 }
-
 
 .card-img-top {
     height: 100%;
@@ -415,7 +411,6 @@ h1.title strong {
     filter: grayscale(0%)
 }
 
-
 .accordion-button:focus {
     box-shadow: none;
     border: none;
@@ -470,12 +465,11 @@ h1.title strong {
 }
 
 .cart-icon {
-    background: url(/img/svg/cart.svg);
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/cart.svg);
     width: 30px;
     height: 30px;
     fill: white;
     display: block;
-    margin-right: 20px;
 }
 
 .btn-link {
@@ -486,7 +480,7 @@ h1.title strong {
 }
 
 #duvida {
-    background: url(/img/img/duvida.png);
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/duvida.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     height: 154px;
@@ -497,20 +491,20 @@ h1.title strong {
 }
 
 #medindo {
-    background: url(/img/img/medindo.png);
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/medindo.png);
     background-size: cover;
     height: 582px;
 }
 
 #costurando {
-    background: url(/img/img/costura.png);
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/costura.png);
     background-size: cover;
     height: 492px;
 }
 
 .ml3 {
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 1em;
 }
 
 #meusofa button {
@@ -522,6 +516,7 @@ h1.title strong {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
+
 #meusofa .meusofa-item .title {
     font-size: 18px;
     color: #000;
@@ -548,7 +543,6 @@ h1.title strong {
 
 .footer-experiment img {
     width: 30px;
-    
 }
 
 p.compre {
@@ -557,20 +551,21 @@ p.compre {
     padding: 10px;
 }
 
+
 /* message */
-#message .ese p{
+
+#message .ese p {
     color: #000;
     font-size: 20px !important;
     text-align: center;
 }
 
-#message .icon-down{
+#message .icon-down {
     width: 15px;
     height: 15px;
     position: relative;
     top: 11px;
     margin-right: 20px;
-
 }
 
 #message a {
@@ -582,52 +577,59 @@ p.compre {
     padding: 5px 10px;
 }
 
-#message .pm{
+#message .pm {
     justify-content: center;
 }
 
+
 /* menu */
 
-#myTopnav svg{
+#myTopnav svg {
     fill: #000;
     width: 25px;
     height: 25px;
 }
 
+
 /* index-moma */
-#moma p{
+
+#moma p {
     color: #fff;
     font-weight: bold;
 }
 
-#moma h1{
+#moma h1 {
     color: #fff;
     font-weight: bold;
 }
 
-.container-fluid div > a{
+.container-fluid div>a {
     color: #3a72a5;
 }
 
+
 /* Clausi */
 
-#Clausi h1{
+#Clausi h1 {
     font-weight: bold;
 }
 
-#Clausi p{
+#Clausi p {
     color: #2c2e35;
     font-size: 18px;
     font-weight: bold;
 }
 
+
 /* step_2 */
+
 .pic {
     position: relative;
     width: 100px;
     height: 100px;
 }
-.accordion-body .fa-check-circle{
+
+.accordion-body .fa-check-circle {
     width: 15px;
     height: 15px;
     position: absolute;
@@ -635,12 +637,12 @@ p.compre {
     right: 1px;
 }
 
-#subFormato .accordion-header .accordion-button{
+#subFormato .accordion-header .accordion-button {
     padding-left: 30px;
 }
 
-#subFormato .accordion-header .accordion-button::after{
-    background-image: url(/img/svg/down.svg) !important;
+#subFormato .accordion-header .accordion-button::after {
+    background-image: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/down.svg) !important;
     background-repeat: no-repeat !important;
     transform: rotate(0deg) !important;
     width: 15px;
@@ -649,21 +651,24 @@ p.compre {
     right: 30px;
 }
 
-.accordion-header .accordion-button:not(.collapsed){
+.accordion-header .accordion-button:not(.collapsed) {
     color: #000;
     background: #fff;
 }
+
+
 /* formato */
-#subFormato .accordion-header .accordion-button:not(.collapsed)::after{
+
+#subFormato .accordion-header .accordion-button:not(.collapsed)::after {
     transform: rotate(180deg) !important;
 }
 
-#collapseFormatoFormato .accordion-body .card-block{
+#collapseFormatoFormato .accordion-body .card-block {
     margin: 0 0px 0 0;
     border: 0
 }
 
-#collapseFormatoFormato .accordion-body .card-block .pic{
+#collapseFormatoFormato .accordion-body .card-block .pic {
     width: 100%;
 }
 
@@ -676,35 +681,38 @@ p.compre {
     color: #42454a;
 }
 
-#collapseFormatoFormato .accordion-body .card-block:not(.selected) img{
+#collapseFormatoFormato .accordion-body .card-block:not(.selected) img {
     border: 0;
 }
 
-#collapseFormatoFormato .accordion-body .card-block:not(.selected) .fa{
+#collapseFormatoFormato .accordion-body .card-block:not(.selected) .fa {
     display: none;
 }
 
-#collapseFormatoFormato .accordion-body .card-block span{
+#collapseFormatoFormato .accordion-body .card-block span {
     color: #000
 }
 
-#collapseFormatoFormato .accordion-body .card-block:not(.selected) span{
+#collapseFormatoFormato .accordion-body .card-block:not(.selected) span {
     color: #bfbcc7 !important;
 }
 
-#collapseFormatoFormato .accordion-body .selected{
+#collapseFormatoFormato .accordion-body .selected {
     background-color: #fff;
 }
+
+
 /* medida */
-#collapseFormatoMedida .accordion-body li{
-    border-top:1px solid #bbbcbf;
+
+#collapseFormatoMedida .accordion-body li {
+    border-top: 1px solid #bbbcbf;
 }
 
-#collapseFormatoMedida .accordion-body span{
+#collapseFormatoMedida .accordion-body span {
     position: relative;
 }
 
-#collapseFormatoMedida .accordion-body span p{
+#collapseFormatoMedida .accordion-body span p {
     margin: 10px 0;
     color: #000;
 }
@@ -714,20 +722,22 @@ p.compre {
     right: 35px;
 }
 
-#collapseFormatoMedida .accordion-body li:last-child{
-    border-bottom:1px solid #bbbcbf;
+#collapseFormatoMedida .accordion-body li:last-child {
+    border-bottom: 1px solid #bbbcbf;
 }
+
+
 /* braço */
 
-#collapseFormatoBraco .accordion-body li{
-    border-top:1px solid #bbbcbf;
+#collapseFormatoBraco .accordion-body li {
+    border-top: 1px solid #bbbcbf;
 }
 
-#collapseFormatoBraco .accordion-body span{
+#collapseFormatoBraco .accordion-body span {
     position: relative;
 }
 
-#collapseFormatoBraco .accordion-body span p{
+#collapseFormatoBraco .accordion-body span p {
     margin: 10px 0;
     color: #000;
 }
@@ -737,17 +747,19 @@ p.compre {
     right: 35px;
 }
 
-#collapseFormatoBraco .accordion-body li:last-child{
-    border-bottom:1px solid #bbbcbf;
+#collapseFormatoBraco .accordion-body li:last-child {
+    border-bottom: 1px solid #bbbcbf;
 }
 
+
 /* design */
-#subDesign .accordion-header .accordion-button{
+
+#subDesign .accordion-header .accordion-button {
     padding-left: 30px;
 }
 
-#subDesign .accordion-header .accordion-button::after{
-    background-image: url(/img/svg/down.svg) !important;
+#subDesign .accordion-header .accordion-button::after {
+    background-image: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/down.svg) !important;
     background-repeat: no-repeat !important;
     transform: rotate(0deg) !important;
     width: 15px;
@@ -756,12 +768,12 @@ p.compre {
     right: 30px;
 }
 
-#collapseDesign .accordion-body .card-block{
+#collapseDesign .accordion-body .card-block {
     margin: 0 0px 0 0;
     border: 0
 }
 
-#collapseDesign .accordion-body .card-block .pic{
+#collapseDesign .accordion-body .card-block .pic {
     width: 100%;
 }
 
@@ -774,27 +786,27 @@ p.compre {
     color: #42454a;
 }
 
-#collapseDesign .accordion-body .card-block:not(.selected) img{
+#collapseDesign .accordion-body .card-block:not(.selected) img {
     border: 0;
 }
 
-#collapseDesign .accordion-body .card-block:not(.selected) .fa{
+#collapseDesign .accordion-body .card-block:not(.selected) .fa {
     display: none;
 }
 
-#collapseDesign .accordion-body .card-block span{
+#collapseDesign .accordion-body .card-block span {
     color: #000
 }
 
-#collapseDesign .accordion-body .card-block:not(.selected) span{
+#collapseDesign .accordion-body .card-block:not(.selected) span {
     color: #bfbcc7 !important;
 }
 
-#collapseDesign .accordion-body .selected{
+#collapseDesign .accordion-body .selected {
     background-color: #fff;
 }
 
-#collapseDesign .accordion-body .radio:not(.selected) .cor{
+#collapseDesign .accordion-body .radio:not(.selected) .cor {
     display: block;
     width: 90px;
     height: 90px;
@@ -803,7 +815,7 @@ p.compre {
     border: 2px solid #bbbcbf;
 }
 
-#collapseDesign .accordion-body .cor{
+#collapseDesign .accordion-body .cor {
     display: block;
     width: 90px;
     height: 90px;
@@ -813,36 +825,36 @@ p.compre {
     position: relative;
 }
 
-#collapseDesign .accordion-body .cor span{
+#collapseDesign .accordion-body .cor span {
     background-color: #0f4590 !important;
     display: block;
     width: 75px;
     height: 75px;
-    border-radius:50px;
+    border-radius: 50px;
     margin: 5px auto;
 }
 
-#collapseDesign .accordion-body  p{
+#collapseDesign .accordion-body p {
     text-align: center;
 }
 
-#collapseDesign .accordion-body .radio{
+#collapseDesign .accordion-body .radio {
     -webkit-filter: grayscale(0);
     filter: none;
 }
 
-#collapseDesign .accordion-body .radio:hover{
+#collapseDesign .accordion-body .radio:hover {
     box-shadow: none;
 }
 
-#collapseDesign .accordion-body .cor .fa{
+#collapseDesign .accordion-body .cor .fa {
     width: 20px;
     height: 20px;
     right: -10px;
     color: #2c2e35;
 }
 
-#collapseDesign .accordion-body .duvida{
+#collapseDesign .accordion-body .duvida {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -850,14 +862,15 @@ p.compre {
     text-align: center;
 }
 
+
 /* conforto */
 
-#subConforto .accordion-header .accordion-button{
+#subConforto .accordion-header .accordion-button {
     padding-left: 30px;
 }
 
-#subConforto .accordion-header .accordion-button::after{
-    background-image: url(/img/svg/down.svg) !important;
+#subConforto .accordion-header .accordion-button::after {
+    background-image: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/down.svg) !important;
     background-repeat: no-repeat !important;
     transform: rotate(0deg) !important;
     width: 15px;
@@ -866,22 +879,21 @@ p.compre {
     right: 30px;
 }
 
-.accordion-header .accordion-button:not(.collapsed){
+.accordion-header .accordion-button:not(.collapsed) {
     color: #000;
     background: #fff;
 }
 
-
-#subConforto .accordion-header .accordion-button:not(.collapsed)::after{
+#subConforto .accordion-header .accordion-button:not(.collapsed)::after {
     transform: rotate(180deg) !important;
 }
 
-#collapseConforto .accordion-body .card-block{
+#collapseConforto .accordion-body .card-block {
     margin: 0 0px 0 0;
     border: 0
 }
 
-#collapseConforto .accordion-body .card-block .pic{
+#collapseConforto .accordion-body .card-block .pic {
     width: 100%;
 }
 
@@ -894,40 +906,41 @@ p.compre {
     color: #42454a;
 }
 
-#collapseConforto .accordion-body .card-block:not(.selected) img{
+#collapseConforto .accordion-body .card-block:not(.selected) img {
     border: 0;
 }
 
-#collapseConforto .accordion-body .card-block:not(.selected) .fa{
+#collapseConforto .accordion-body .card-block:not(.selected) .fa {
     display: none;
 }
 
-#collapseConforto .accordion-body .card-block span{
+#collapseConforto .accordion-body .card-block span {
     color: #000
 }
 
-#collapseConforto .accordion-body .card-block:not(.selected) span{
+#collapseConforto .accordion-body .card-block:not(.selected) span {
     color: #bfbcc7 !important;
 }
 
-#collapseConforto .accordion-body .selected{
+#collapseConforto .accordion-body .selected {
     background-color: #fff;
 }
 
+
 /* Experimentar */
 
-.svg-icon{
+.svg-icon {
     display: block;
     width: 6em;
     max-height: 130px;
     padding: 20px 0;
 }
 
-.svg-icon svg{
+.svg-icon svg {
     fill: #000 !important;
 }
 
-.tt-t{
+.tt-t {
     color: #000;
     font-size: 18px;
     font-weight: 900 !important;

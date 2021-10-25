@@ -13,7 +13,7 @@
         <div class="container-fluid py-32 bg-gray">
             <div class="container d-flex justify-content-center align-items-center flex-column text-center">
                 <div class="col-12">
-                    <img src="img/svg/cart-azul.svg"/>
+                    <img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/cart-azul.svg"/>
                 </div>
                 <div class="col-12">
                     <h1 class="title">Compre e experimente em casa por 10 dias</h1>
@@ -25,7 +25,7 @@
         <div class="container-fluid py-32">
             <div class="container d-flex justify-content-center align-items-center flex-column text-center">
                 <div class="col-12">
-                    <img src="img/svg/market.svg"/>
+                    <img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/market.svg"/>
                 </div>
                 <div class="col-12">
                     <h1 class="title">Compre e experimente em casa por 10 dias</h1>
@@ -38,7 +38,7 @@
         <div class="container-fluid py-32 bg-gray">
             <div class="container d-flex justify-content-center align-items-center flex-column text-center">
                 <div class="col-12">
-                    <img src="img/svg/calendar.svg"/>
+                    <img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/calendar.svg"/>
                 </div>
                 <div class="col-12">
                     <h1 class="title">Compre e experimente em casa por 10 dias</h1>
@@ -51,7 +51,7 @@
         <div class="container-fluid pt-32">
             <div class="container d-flex justify-content-center align-items-center flex-column text-center">
                 <div class="col-12">
-                    <img src="img/svg/paper.svg"/>
+                    <img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/paper.svg"/>
                 </div>
                 <div class="col-12">
                     <h1 class="title">Compre e experimente em casa por 10 dias</h1>

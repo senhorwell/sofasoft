@@ -6,7 +6,7 @@
             <div class="col-4 py-2 form-block">
                 <div class="card-block p-0 text-center radio">
                     <div class="pic">
-                        <img class="" src="img/img/costura.png" width="100px"
+                        <img class="" src="https://www.fronte.net.br/clientes/sofasoft/img/img/costura.png" width="100px"
                             height="100px">
                         <i class="fa fa-check-circle"></i>
                     </div>

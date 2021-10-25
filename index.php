@@ -6,13 +6,13 @@
 
     <div class="container-fluid py-32 px-0">
         <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
-            <img src="img/img/step1.png"/>
+            <img src="https://www.fronte.net.br/clientes/sofasoft/img/img/step1.png"/>
         </div>
         <div class="container d-flex justify-content-center align-items-center text-center">
             <a href="step2_1.php"><h1 class="title"><strong>Escolha</strong><br> seu estilo</h1></a>
         </div>
         <div class="container d-flex justify-content-center align-items-center text-center">
-            <a class="arrow-down" href="step2_1.php"><img src="img/svg/down.svg"/></a>
+            <a class="arrow-down" href="step2_1.php"><img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/down.svg"/></a>
         </div>
     </div>
 
