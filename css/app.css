@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@font-face {
+font-family: "Raleway";
+src: url("/font/raleway-regular.woff2") format("woff2"),
+    url("/font/raleway-regular.woff") format("woff");
+}
+
+@font-face {
+font-family: "Raleway-bold";
+src: url("/font/raleway-bold.woff2") format("woff2"),
+    url("/font/raleway-bold.woff") format("woff");
+}
+
+strong {
+    font-family: 'Raleway-bold' !important;
+}
+
 body {
     margin: 0;
     font-family: 'Raleway', Arial, Helvetica;
@@ -244,7 +259,8 @@ h1.title strong {
 
 #accordionParent .accordion-button::after,
 #accordionParent2 .accordion-button::after,
-#accordionParent3 .accordion-button::after {
+#accordionParent3 .accordion-button::after,
+#meusofa .accordion-button::after {
     background: url(/img/svg/next.svg);
     background: url(/img/svg/next.svg) !important;
     background-repeat: no-repeat;
