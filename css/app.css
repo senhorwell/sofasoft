@@ -229,6 +229,7 @@ h1.title strong {
 .bg-consulta {
     background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/modelo.png);
     background-size: cover;
+    height: 100%;
 }
 
 .bg-tuim {
