@@ -2,15 +2,20 @@ $(document).ready(function() {
 
     $('.avaliacao.owl-carousel').owlCarousel({
         loop: true,
+        center: true,
+        items: 1,
         margin: 10,
         nav: false,
         dots: false,
         responsive: {
             0: {
-                items: 1
+                margin:10,
+                loop:true,
+                autoWidth:true,
+                items: 2
             },
             900: {
-                items: 1
+                items: 3
             },
             1000: {
                 items: 6

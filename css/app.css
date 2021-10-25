@@ -213,7 +213,7 @@ h1.title strong {
 }
 
 .bg-consulta {
-    background: #ffeadd !important;
+    background: #d4c0b2 !important;
 }
 
 .bg-tuim {
@@ -243,7 +243,9 @@ h1.title strong {
     border-bottom: 1px solid rgba(0, 0, 0, .125);
 }
 
-.accordion-button::after {
+#accordionParent .accordion-button::after,
+#accordionParent2 .accordion-button::after,
+#accordionParent3 .accordion-button::after {
     background: url(/img/svg/next.svg);
     background: url(/img/svg/next.svg) !important;
     background-repeat: no-repeat;
@@ -331,6 +333,23 @@ h1.title strong {
     .card {
         width: 300px;
         height: 300px;
+    }
+}
+
+@media(max-width: 460px) {
+    #message .ese {
+        width: 40%;
+    }
+    
+    #message .ese p {
+        font-size: 14px !important;
+    }
+    
+    #message .pm {
+        width: 60%;
+    }
+    #comparando h1.title strong {
+        font-size: 24px !important;
     }
 }
 
@@ -470,12 +489,11 @@ h1.title strong {
 }
 
 .cart-icon {
-    background: url(/img/svg/cart.svg);
+    background: url(/img/svg/cart-white-css.svg);
     width: 30px;
     height: 30px;
     fill: white;
     display: block;
-    margin-right: 20px;
 }
 
 .btn-link {
@@ -533,8 +551,10 @@ h1.title strong {
     color: #9fd7f2;
 }
 
-#propaganda-card img {
-    width: 30px;
+#propaganda-card .svg-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0px !important;
 }
 
 #propaganda-card .fw-bold {
@@ -546,21 +566,24 @@ h1.title strong {
     border-top: 1px solid #ccc;
 }
 
-.footer-experiment img {
-    width: 30px;
+.footer-experiment .svg-icon {
+    width: 40px;
     
 }
 
 p.compre {
     color: #3c72b0;
-    font-weight: bold;
     padding: 10px;
 }
 
+h1.price {
+    font-weight: 900 !important;
+    font-size: 30px !important;
+}
 /* message */
 #message .ese p{
     color: #000;
-    font-size: 20px !important;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -590,7 +613,7 @@ p.compre {
 
 #myTopnav svg{
     fill: #000;
-    width: 25px;
+    width: 18px;
     height: 25px;
 }
 
@@ -870,7 +893,6 @@ p.compre {
     color: #000;
     background: #fff;
 }
-
 
 #subConforto .accordion-header .accordion-button:not(.collapsed)::after{
     transform: rotate(180deg) !important;
