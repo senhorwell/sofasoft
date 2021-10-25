@@ -54,8 +54,8 @@
 
     
 
-    <div id="comparando" class="container-fluid py-32">
-        <div class="container d-flex justify-content-center text-center">
+    <div id="comparando" class="container-fluid pb-32">
+        <div class="container d-flex justify-content-center text-center py-32">
             <h1 class="title"><strong>Comparando</strong> os estilos</h1>
         </div>
         <div class="container blue-border p-4">

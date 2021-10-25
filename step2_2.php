@@ -15,7 +15,7 @@
     <img src="https://www.fronte.net.br/clientes/sofasoft/img/img/step2.png" />
 </div>
 <div class="container d-flex justify-content-center text-center">
-    <h1 class="title">Personalize seu<br> <strong>moma</strong></h1>
+    <h1 class="title">Personalize seu<br> <strong>Moma</strong></h1>
 </div>
 <div class="container-fluid whatsapp-container position-fixed bottom-0">
     <div class="container whatsapp-box d-flex justify-content-center  text-center my-4">
@@ -331,7 +331,7 @@
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
         <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/chat.svg" />
         <h1 class="text-dark fw-bold text-center px-5">Ajuda para comprar</h1>
-        <p class="text-center p-0 m-0">Comnverse com um especialista online ou ligue para:</p>
+        <p class="text-center p-0 m-0">Converse com um especialista online ou ligue para:</p>
         <a href="tel:5543991025500">(43) 9 9102-5500</a>
         <button type="button" class="pt-3 btn-link" data-bs-toggle="modal" data-bs-target="#ajudaModal">Saiba mais
             ></button>
@@ -365,6 +365,22 @@
     </div>
 </div>
 
+<div class="container-fluid px-0 m-0">
+    <img class="w-100" src="img/img/sofa1.png" />
+</div>
+<div class="container-fluid px-0 m-0">
+    <img class="w-100" src="img/img/sofa1.png" />
+</div>
+<div class="container-fluid px-0 m-0">
+    <img class="w-100" src="img/img/sofa1.png" />
+</div>
+<div class="container-fluid px-0 m-0">
+    <img class="w-100" src="img/img/sofa1.png" />
+</div>
+<div class="container-fluid px-0 m-0">
+    <img class="w-100" src="img/img/sofa1.png" />
+</div>
+
 <div id="medindo" class="container-fluid px-0 m-0 py-32">
     <div class="container d-flex justify-content-center text-start flex-column">
         <h1 class="title px-3"><strong>O dobro de espuma</strong><br> dos sofás<br> tradicionais</h1>
@@ -384,28 +400,13 @@
         <h1 class="text-light px-3">Suporta<br> pessoas de</h1>
         <h1 class="px-3 title fw-bold"><strong>145kg</strong><br></h1>
 
-            <div class="col-6 offset-6">
+            <div class="col-7 offset-5 pt-5">
                 <p class="pt-5 text-light">Aprovado em laboratório de qualidade especializado, e testes de <strong>10
                         mil</strong> ciclos.</p>
                 <p class="text-light p-0 m-0"><strong>9 anos</strong> sentando-se</p>
                 <p class="fw-bold text-light">3 vezes ao dia</p>
             </div>
     </div>
-</div>
-<div class="container-fluid px-0 m-0">
-    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png" />
-</div>
-<div class="container-fluid px-0 m-0">
-    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png" />
-</div>
-<div class="container-fluid px-0 m-0">
-    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png" />
-</div>
-<div class="container-fluid px-0 m-0">
-    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png" />
-</div>
-<div class="container-fluid px-0 m-0">
-    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png" />
 </div>
 
 <?php include 'avaliacao.php';?>

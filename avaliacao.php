@@ -1,10 +1,9 @@
-<div class="container-fluid bg-gray py-32">
+<div class="container-fluid bg-gray py-32 px-0 mx-0">
     <h1 class="title text-center">O que <strong>estão dizendo</strong></h1>
     <div class="avaliacao owl-carousel owl-theme">
         <div class="item d-flex justify-content-center align-items-center">
             <span class="seta-cima"></span>
-            <div class="card container m-3" style="width: 18rem;">
-
+            <div class="card container">
                 <div class="d-flex pt-4 pb-2 col-12 justify-content-center">
                     <div class="col-1">
                         <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/star.svg"/>
