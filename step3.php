@@ -13,7 +13,7 @@
         <div class="container-fluid py-32 bg-gray">
             <div class="container d-flex justify-content-center align-items-center flex-column text-center">
                 <div class="col-12">
-                    <img src="img/svg/cart.svg"/>
+                    <img src="img/svg/cart-azul.svg"/>
                 </div>
                 <div class="col-12">
                     <h1 class="title">Compre e experimente em casa por 10 dias</h1>

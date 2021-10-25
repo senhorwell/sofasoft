@@ -12,7 +12,7 @@
 </div>
 
 <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
-    <img src="img/img/step1.png" />
+    <img src="img/img/step2.png" />
 </div>
 <div class="container d-flex justify-content-center text-center">
     <h1 class="title">Personalize seu<br> <strong>moma</strong></h1>
@@ -36,7 +36,7 @@
             </h2>
             <div id="collapseFormato" class="accordion-collapse collapse" aria-labelledby="formato"
                 data-bs-parent="#accordionParent">
-                <div class="accordion-body">
+                <div class="accordion-body p-0">
                     <div class="accordion" id="subFormato">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFormatoFormato">
@@ -62,31 +62,20 @@
                             <div id="collapseFormatoMedida" class="accordion-collapse collapse"
                                 aria-labelledby="headingFormatoMedida" data-bs-parent="#subFormato">
                                 <div class="accordion-body">
-                                    <ul class="w-100 p-0 m-0">
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>2,22 x 2,22m</p>
-                                                <p>-R$ 1.400,00</p>
-                                            </a>
+                                    <ul class="w-100 p-0 m-0 radio-group">
+                                    <?php        
+                                        for($i=0; $i < 9; $i++){
+                                    ?>
+                                        <li class="w-100 radio">
+                                            <span class="d-flex justify-content-between w-100">
+                                                <p class="med">2,22 x 2,22m</p>
+                                                <p class="price">-R$ 1.400,00</p>
+                                                <i class="fa fa-check-circle hidden" style = 'display: none;'></i>
+                                        </span>
                                         </li>
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>2,22 x 2,22m</p>
-                                                <p>-R$ 1.400,00</p>
-                                            </a>
-                                        </li>
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>2,22 x 2,22m</p>
-                                                <p>-R$ 1.400,00</p>
-                                            </a>
-                                        </li>
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>2,22 x 2,22m</p>
-                                                <p>-R$ 1.400,00</p>
-                                            </a>
-                                        </li>
+                                    <?php        
+                                        }
+                                    ?>
                                     </ul>
                                 </div>
                             </div>
@@ -102,53 +91,21 @@
                             <div id="collapseFormatoBraco" class="accordion-collapse collapse"
                                 aria-labelledby="headingFormatoBraco" data-bs-parent="#subFormato">
                                 <div class="accordion-body">
-                                    <ul class="w-100 p-0 m-0">
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>25cm</p>
-                                            </a>
+                                    <ul class="w-100 p-0 m-0 radio-group">
+                                    <?php        
+                                        for($i=0; $i < 9; $i++){
+                                    ?>
+                                        <li class="w-100 radio">
+                                            <span class="d-flex justify-content-between w-100">
+                                                <p class = 'med'>2,22 x 2,22m</p>
+                                                <p class="price">-R$ 1.400,00</p>
+                                                <i class="fa fa-check-circle hidden" style = 'display: none;'></i>
+                                        </span>
                                         </li>
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                     <ul class="w-100 p-0 m-0">
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>2,22 x 2,22m</p>
-                                                <p>-R$ 1.400,00</p>
-                                            </a>
-                                        </li>
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>2,22 x 2,22m</p>
-                                                <p>-R$ 1.400,00</p>
-                                            </a>
-                                        </li>
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>2,22 x 2,22m</p>
-                                                <p>-R$ 1.400,00</p>
-                                            </a>
-                                        </li>
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>2,22 x 2,22m</p>
-                                                <p>-R$ 1.400,00</p>
-                                            </a>
-                                        </li>
-                                    </ul>           <p>30cm</p>
-                                            </a>
-                                        </li>
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>35cm</p>
-                                            </a>
-                                        </li>
-                                        <li class="w-100">
-                                            <a href="#" class="d-flex justify-content-between w-100">
-                                                <p>40cm</p>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <?php        
+                                        }
+                                    ?>
+                                    </ul>   
                                 </div>
                             </div>
                         </div>
@@ -168,7 +125,7 @@
             </h2>
             <div id="collapseDesign" class="accordion-collapse collapse" aria-labelledby="design"
                 data-bs-parent="#accordionParent2">
-                <div class="accordion-body">
+                <div class="accordion-body p-0">
                     <div class="accordion" id="subDesign">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingDesignTecido">
@@ -180,9 +137,7 @@
                             </h2>
                             <div id="collapseDesignTecido" class="accordion-collapse collapse"
                                 aria-labelledby="headingDesignTecido" data-bs-parent="#subDesign">
-                                <div class="accordion-body">
-                                    <p class="text-start">item</p>
-                                </div>
+                                <?php include 'accordion-items.php';?>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -195,8 +150,25 @@
                             </h2>
                             <div id="collapseDesignCor" class="accordion-collapse collapse"
                                 aria-labelledby="headingFormatoCor" data-bs-parent="#subFormato">
-                                <div class="accordion-body">
-                                    <?php include 'color-items.php';?>
+                                <div class="accordion-body radio-group d-flex flex-wrap">
+                                    <!-- <?php include 'color-items.php';?> -->
+                                    <?php        
+                                        for($i=0; $i < 8; $i++){
+                                    ?>
+                                    <div class="col-4 radio">
+                                        <div class="cor">
+                                            <span></span>
+                                            <i class="fa fa-check-circle" style="display: none;"></i>
+                                        </div>
+                                        <p>Azul Linho</p>
+                                    </div>
+                                    <?php           
+                                        }
+                                    ?>
+                                    <div class="col-4 duvida">
+                                        <p>Ficou em dúvida?</p>
+                                        <a href="">Solicitar amostras ></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -212,12 +184,12 @@
             <h2 class="accordion-header" id="conforto">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseConforto" aria-expanded="true" aria-controls="collapseConforto">
-                    Defina o conforto
+                    Personalize o conforto
                 </button>
             </h2>
             <div id="collapseConforto" class="accordion-collapse collapse" aria-labelledby="conforto"
                 data-bs-parent="#accordionParent3">
-                <div class="accordion-body">
+                <div class="accordion-body p-0">
                     <div class="accordion" id="subConforto">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingConfortoEnchimento">
@@ -230,7 +202,10 @@
                             <div id="collapseConfortoEnchimento" class="accordion-collapse collapse"
                                 aria-labelledby="headingConfortoEnchimento" data-bs-parent="#subConforto">
                                 <div class="accordion-body">
-                                    <p class="text-start">item</p>
+                                    <div id="collapseConfortoEnchimento" class="accordion-collapse collapse"
+                                        aria-labelledby="headingConfortoEnchimento" data-bs-parent="#subConforto">
+                                        <?php include 'accordion-items.php';?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +220,10 @@
                             <div id="collapseConfortoCor" class="accordion-collapse collapse"
                                 aria-labelledby="headingConfortoCor" data-bs-parent="#subConforto">
                                 <div class="accordion-body">
-                                    <p class="text-start">item</p>
+                                    <div id="collapseConfortoCor" class="accordion-collapse collapse"
+                                        aria-labelledby="headingConfortoCor" data-bs-parent="#subConforto">
+                                        <?php include 'accordion-items.php';?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -260,7 +238,10 @@
                             <div id="collapseConfortoCarregador" class="accordion-collapse collapse"
                                 aria-labelledby="headingConfortoCarregador" data-bs-parent="#subConforto">
                                 <div class="accordion-body">
-                                    <p class="text-start">item</p>
+                                    <div id="collapseConfortoCarregador" class="accordion-collapse collapse"
+                                        aria-labelledby="headingConfortoCarregador" data-bs-parent="#subConforto">
+                                        <?php include 'accordion-items.php';?>
+                                    </div>
                                 </div>
                             </div>
                         </div>

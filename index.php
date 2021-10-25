@@ -9,7 +9,7 @@
             <img src="img/img/step1.png"/>
         </div>
         <div class="container d-flex justify-content-center align-items-center text-center">
-            <a href="step2_1.php"><h1 class="title"><strong>Escolha</strong><br> o estilo</h1></a>
+            <a href="step2_1.php"><h1 class="title"><strong>Escolha</strong><br> seu estilo</h1></a>
         </div>
         <div class="container d-flex justify-content-center align-items-center text-center">
             <a class="arrow-down" href="step2_1.php"><img src="img/svg/down.svg"/></a>
@@ -17,7 +17,7 @@
     </div>
 
     <div id="moma" class="container-fluid bg-black py-32 px-0">
-        <div class="container d-flex justify-content-center pb-32 text-center flex-column">
+        <div class="container d-flex justify-content-center pb-32 text-center flex-column px-5">
             <h1>Moma</h1>
             <p>Para quem ama design e não abre mão do conforto.</p>
             <div class="container d-flex justify-content-center">
