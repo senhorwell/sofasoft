@@ -261,8 +261,8 @@ h1.title strong {
 #accordionParent2 .accordion-button::after,
 #accordionParent3 .accordion-button::after,
 #meusofa .accordion-button::after {
-    background: url(/img/svg/next.svg);
-    background: url(/img/svg/next.svg) !important;
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/next.svg);
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/next.svg) !important;
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -499,7 +499,7 @@ h1.title strong {
 }
 
 .cart-icon {
-    background: url(/img/svg/cart-white-css.svg);
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/cart-white-css.svg);
     width: 30px;
     height: 30px;
     fill: white;
