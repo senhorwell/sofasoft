@@ -16,7 +16,7 @@ strong {
 
 body {
     margin: 0;
-    font-family: 'Raleway', Arial, Helvetica;
+    font-family: 'Raleway';
 }
 
 a {
@@ -165,9 +165,9 @@ h1.title strong {
     left: 0px;
 }
 
-.medidas .card .estilo {
+/*.medidas .card .estilo {
     font-weight: 900;
-}
+}*/
 
 .arrow-down img {
     padding: 24px;
@@ -227,7 +227,8 @@ h1.title strong {
 }
 
 .bg-consulta {
-    background: #d4c0b2 !important;
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/modelo.png);
+    background-size: cover;
 }
 
 .bg-tuim {
@@ -635,7 +636,6 @@ h1.price {
 
 #moma p {
     color: #fff;
-    font-weight: bold;
 }
 
 #moma h1 {
@@ -657,7 +657,6 @@ h1.price {
 #Clausi p {
     color: #2c2e35;
     font-size: 18px;
-    font-weight: bold;
 }
 
 

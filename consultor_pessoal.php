@@ -6,6 +6,4 @@
     <div class="container d-flex justify-content-center pb-32">
         <a href="#">Agendar visita ></a>
     </div>
-
-    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/modelo.png" />
 </div>

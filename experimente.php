@@ -93,7 +93,7 @@
                     <?php include 'img/svg/truck.svg';?>
                 </div>
                 <p class="fw-bold tt-t">Frete Grátis</p>
-                <p>para diversos estados do Brasil</p>
+                <p class="p-0 m-0">para diversos estados do Brasil</p>
                 <a href="#">Saiba mais ></a>
             </div>
 
@@ -121,7 +121,7 @@
                     <?php include 'img/svg/chat.svg';?>
                 </div>
                 <p class="fw-bold tt-t">Ajuda para comprar</p>
-                <p>Converse com uma especialista online ou ligue para: <a href="tel:43991025500">43 9 9102 5500</a></p>
+                <p class="p-0 m-0">Converse com uma especialista online ou ligue para: <a href="tel:43991025500">43 9 9102 5500</a></p>
                 <a href="#">Saiba mais ></a>
             </div>
         </div>
