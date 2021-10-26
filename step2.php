@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<?php include 'message.php';?>
+<?php include 'price.php';?>
 <div class="container-fluid px-0 mx-0" style="margin-top:65px">
     <?php include 'menu.php';?>
 </div>

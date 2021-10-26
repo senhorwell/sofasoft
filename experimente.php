@@ -12,7 +12,11 @@
             <a href="step2_1.php"><h1 class="title"><strong>Experimente</strong><br> seu sofa</h1></a>
         </div>
         <div class="container d-flex justify-content-center align-items-center text-center">
-            <a class="arrow-down" href="step2_1.php"><img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/down.svg"/></a>
+            <a class="arrow-down" href="#">
+                <i class="icon-down">
+                    <?php include 'img/svg/down.svg';?>
+                </i>    
+            </a>
         </div>
     </div>
     

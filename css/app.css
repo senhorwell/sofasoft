@@ -14,6 +14,10 @@ strong {
     font-family: 'Raleway-bold' !important;
 }
 
+strong.normal {
+    font-family: 'Raleway' !important;
+}
+
 body {
     margin: 0;
     font-family: 'Raleway';
@@ -32,8 +36,8 @@ a {
 }
 
 .py-32 {
-    padding-top: 32px !important;
-    padding-bottom: 32px !important;
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
 }
 
 .pb-16 {
@@ -53,7 +57,7 @@ p {
 }
 
 h1 {
-    font-size: 24px !important;
+    font-size: 30px !important;
 }
 
 h2 {
@@ -151,7 +155,7 @@ h1.title strong {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: -38px;
+    top: -3px;
     right: 0px;
 }
 
@@ -161,7 +165,7 @@ h1.title strong {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: -38px;
+    top: -3px;
     left: 0px;
 }
 
@@ -339,10 +343,14 @@ h1.title strong {
     border-radius: 10px !important;
     border: none !important;
     overflow: hidden;
-    width: 260px;
-    height: 260px;
+    width: 320px;
+    height: 320px;
     margin: 0 auto;
     position: relative;
+}
+
+#price p.money {
+    font-family: Arial;
 }
 
 @media(min-width: 400px) and (max-width: 500px) {
@@ -359,12 +367,24 @@ h1.title strong {
     #message .ese p {
         font-size: 14px !important;
     }
+    #message .pm p {
+        font-size: 11px !important;
+    }
     #message .pm {
         width: 60%;
     }
     #comparando h1.title strong {
         font-size: 24px !important;
     }
+    #message a,
+    #price a {
+        font-size: 12px;
+    }
+    #price .cart-icon {
+        width: 25px;
+        height: 25px;
+    }
+    
 }
 
 @media(min-width: 500px) and (max-width: 600px) {
@@ -511,7 +531,7 @@ h1.title strong {
 .btn-link {
     border: none;
     background: none;
-    color: blue;
+    color: #3a72a5;
     text-decoration: none;
 }
 
@@ -602,7 +622,7 @@ h1.price {
     text-align: center;
 }
 
-#message .icon-down {
+ .icon-down {
     width: 15px;
     height: 15px;
     position: relative;
