@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<?php include 'message.php';?>
+<?php include 'price.php';?>
 <div class="container-fluid px-0 mx-0" style="margin-top:65px">
     <?php include 'menu.php';?>
 </div>
@@ -399,13 +399,12 @@
     <div class="container d-flex justify-content-end text-end flex-column">
         <h1 class="text-light px-3">Suporta<br> pessoas de</h1>
         <h1 class="px-3 title fw-bold"><strong>145kg</strong><br></h1>
-
-            <div class="col-7 offset-5 pt-5">
-                <p class="pt-5 text-light">Aprovado em laboratório de qualidade especializado, e testes de <strong>10
-                        mil</strong> ciclos.</p>
-                <p class="text-light p-0 m-0"><strong>9 anos</strong> sentando-se</p>
-                <p class="fw-bold text-light">3 vezes ao dia</p>
-            </div>
+        <div class="box b col-7 offset-5 pt-5" data-aos="flip-down">
+            <p class="pt-5 text-light">Aprovado em laboratório de qualidade especializado, e testes de <strong>10
+                    mil</strong> ciclos.</p>
+            <p class="text-light p-0 m-0"><strong>9 anos</strong> sentando-se</p>
+            <p class="fw-bold text-light">3 vezes ao dia</p>
+        </div>
     </div>
 </div>
 
@@ -423,6 +422,7 @@
 <?php include 'perguntas.php';?>
 <?php include 'form.php';?>
 
+<script src="js/aos.js"></script>
 <script src="js/visibility.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 

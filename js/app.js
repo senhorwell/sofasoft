@@ -1,12 +1,19 @@
+
+
 $(document).ready(function() {
 
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    });
+    
     $('.avaliacao.owl-carousel').owlCarousel({
         loop: true,
         center: true,
         items: 1,
         margin: 10,
         nav: false,
-        dots: false,
+        dots: true,
         responsive: {
             0: {
                 margin:10,
@@ -40,7 +47,7 @@ $(document).ready(function() {
         items: 1,
         margin: 10,
         nav: false,
-        dots: false,
+        dots: true,
         responsive: {
             0: {
                 margin:10,
