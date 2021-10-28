@@ -1,5 +1,12 @@
+
+
 $(document).ready(function() {
 
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    });
+    
     $('.avaliacao.owl-carousel').owlCarousel({
         loop: true,
         center: true,

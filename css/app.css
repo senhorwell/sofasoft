@@ -411,7 +411,9 @@ h1.title strong {
     position: absolute;
     top: 5px;
 }
-
+.lb-data .lb-number {
+    display: none !important;
+}
 .seta-cima:before {
     content: "";
     display: inline-block;
@@ -627,7 +629,7 @@ h1.price {
     height: 15px;
     position: relative;
     top: 11px;
-    margin-right: 20px;
+    display: block;
 }
 
 #message a {
