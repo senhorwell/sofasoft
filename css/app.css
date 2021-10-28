@@ -1,13 +1,11 @@
 @font-face {
-font-family: "Raleway";
-src: url("/font/raleway-regular.woff2") format("woff2"),
-    url("/font/raleway-regular.woff") format("woff");
+    font-family: "Raleway";
+    src: url("https://www.fronte.net.br/clientes/sofasoft/font/raleway-regular.woff2") format("woff2"), url("https://www.fronte.net.br/clientes/sofasoft/font/raleway-regular.woff") format("woff");
 }
 
 @font-face {
-font-family: "Raleway-bold";
-src: url("/font/raleway-bold.woff2") format("woff2"),
-    url("/font/raleway-bold.woff") format("woff");
+    font-family: "Raleway-bold";
+    src: url("https://www.fronte.net.br/clientes/sofasoft/font/raleway-bold.woff2") format("woff2"), url("https://www.fronte.net.br/clientes/sofasoft/font/raleway-bold.woff") format("woff");
 }
 
 strong {
@@ -164,6 +162,7 @@ h1.title strong {
     top: -38px;
     left: 0px;
 }
+
 
 /*.medidas .card .estilo {
     font-weight: 900;
