@@ -10,7 +10,7 @@
                             height="100px">
                         <i class="fa fa-check-circle"></i>
                     </div>
-                    <span>R$ 1500,00</span>
+                    <span class="money">R$ 1500,00</span>
                 </div>
             </div>
         <?php        

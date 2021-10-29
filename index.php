@@ -6,7 +6,29 @@
 
     <div class="container-fluid py-32 px-0">
         <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
-            <img src="https://www.fronte.net.br/clientes/sofasoft/img/img/step1.png"/>
+            <div class="col-6 d-flex justify-content-around align-items-center">  
+                <a href="index.php">
+                    <i class="step1 step selected d-flex justify-content-center align-items-center">
+                        1
+                    </i>
+                </a>
+                <i class="d-flex justify-content-center align-items-center">
+                    <?php include 'img/svg/traco-step.svg';?>
+                </i>
+                <a href="">
+                    <i class="step2 step d-flex justify-content-center align-items-center">
+                        2
+                    </i>
+                </a>
+                <i class="d-flex justify-content-center align-items-center">
+                    <?php include 'img/svg/traco-step.svg';?>
+                </i>
+                <a href="">
+                    <i class="step3 step d-flex justify-content-center align-items-center">
+                        3
+                    </i>
+                </a>
+            </div>
         </div>
         <div class="container d-flex justify-content-center align-items-center text-center">
             <a href="#"><h1 class="title"><strong>Escolha</strong><br> seu estilo</h1></a>
@@ -59,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <?php include 'configuracao.php';?>
+        <?php include 'carrossel.php';?>
     </div>
 
     <div id="clausi" class="container-fluid py-32 px-0">
@@ -101,7 +123,7 @@
                 </div>
             </div>
         </div>
-        <?php include 'configuracao.php';?>
+        <?php include 'carrossel.php';?>
     </div>
 
     <div id="tuim" class="container-fluid bg-tuim py-32 px-0">
@@ -143,7 +165,7 @@
                 </div>
             </div>
         </div>
-        <?php include 'configuracao.php';?>
+        <?php include 'carrossel.php';?>
     </div>
 
     

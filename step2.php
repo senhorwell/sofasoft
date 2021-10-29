@@ -12,7 +12,29 @@
 </div>
 
 <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
-    <img src="https://www.fronte.net.br/clientes/sofasoft/img/img/step2.png" />
+    <div class="col-6 d-flex justify-content-around align-items-center">  
+        <a href="index.php">
+            <i class="step1 step d-flex justify-content-center align-items-center">
+                1
+            </i>
+        </a>
+        <i class="d-flex justify-content-center align-items-center">
+            <?php include 'img/svg/traco-step.svg';?>
+        </i>
+        <a href="#">
+            <i class="step2 step selected d-flex justify-content-center align-items-center">
+                2
+            </i>
+        </a>
+        <i class="d-flex justify-content-center align-items-center">
+            <?php include 'img/svg/traco-step.svg';?>
+        </i>
+        <a href="">
+            <i class="step3 step d-flex justify-content-center align-items-center">
+                3
+            </i>
+        </a>
+    </div>
 </div>
 <div class="container d-flex justify-content-center text-center">
     <h1 class="title">Personalize seu<br> <strong>Moma</strong></h1>
@@ -263,8 +285,8 @@
     </div>
 
     <div class="container d-flex justify-content-center text-center py-32 flex-column px-3">
-        <p class="text-center">de R$4.529,75</p>
-        <p class="text-center">por <strong>R$ 4.029,75</strong> à vista <strong>(5% de desconto)</strong> ou</p>
+        <p class="text-center">de <span class="money">R$4.529,75</span></p>
+        <p class="text-center">por <strong class="money">R$ 4.029,75</strong> à vista <strong>(5% de desconto)</strong> ou</p>
     </div>
     <div class="container d-flex justify-content-center pb-32 text-center">
         <h1 class="text-dark title text-center fw-bold">10X R$ 424,18</h1>
@@ -365,20 +387,23 @@
     </div>
 </div>
 
-<div class="container-fluid px-0 m-0">
-    <img class="w-100" src="img/img/sofa1.png" />
+<div class="container-fluid px-0 m-0 bg-sofa">
+    <h4 class="text-light text-center pt-5">Lindo ao olhar, magnífico para usar.</h4>
 </div>
-<div class="container-fluid px-0 m-0">
-    <img class="w-100" src="img/img/sofa1.png" />
+<div class="container-fluid px-0 m-0 bg-sofa">
+    <h4 class="text-light text-center pt-5">Na medida para o seu conforto.</h4>
+    <h4 class="text-light text-center">Apoio da cabeça aos pés.</h4>
 </div>
-<div class="container-fluid px-0 m-0">
-    <img class="w-100" src="img/img/sofa1.png" />
+<div class="container-fluid px-0 m-0 bg-sofa">
+    <h4 class="text-light text-center pt-5 px-3">Sentar, ler, comer, deitar, maratonar encosto ajustável com 7 posições e almofadas soltas.</h4>
 </div>
-<div class="container-fluid px-0 m-0">
-    <img class="w-100" src="img/img/sofa1.png" />
+<div class="container-fluid px-0 m-0 bg-sofa">
+    <h4 class="text-light text-center pt-5">Cantos ou retos, compactos ou grandões</h4>
 </div>
-<div class="container-fluid px-0 m-0">
-    <img class="w-100" src="img/img/sofa1.png" />
+<div class="container-fluid px-0 m-0 bg-sofa">
+    <h4 class="text-light text-center pt-5">Clique para abrir e fechar não precisa se levantar.</h4>
+    <h4 class="text-light text-center">(opção manual também disponível)</h4>
+
 </div>
 
 <div id="medindo" class="container-fluid px-0 m-0 py-32">
@@ -418,9 +443,7 @@
 </div>
 
 
-
 <?php include 'perguntas.php';?>
-<?php include 'form.php';?>
 
 <script src="js/aos.js"></script>
 <script src="js/visibility.js"></script>

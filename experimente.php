@@ -3,10 +3,31 @@
 <div class="container-fluid px-0 mx-0" style="margin-top:100px">
     <?php include 'configuracao.php';?>
 </div>
-
     <div class="container-fluid py-32 px-0">
         <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
-            <img src="https://www.fronte.net.br/clientes/sofasoft/img/img/step3.png"/>
+            <div class="col-6 d-flex justify-content-around align-items-center">  
+                <a href="index.php">
+                    <i class="step1 step d-flex justify-content-center align-items-center">
+                        1
+                    </i>
+                </a>
+                <i class="d-flex justify-content-center align-items-center">
+                    <?php include 'img/svg/traco-step.svg';?>
+                </i>
+                <a href="step2.php">
+                    <i class="step2 step d-flex justify-content-center align-items-center">
+                        2
+                    </i>
+                </a>
+                <i class="d-flex justify-content-center align-items-center">
+                    <?php include 'img/svg/traco-step.svg';?>
+                </i>
+                <a href="#">
+                    <i class="step3 step selected d-flex justify-content-center align-items-center">
+                        3
+                    </i>
+                </a>
+            </div>
         </div>
         <div class="container d-flex justify-content-center align-items-center text-center">
             <a href="step2_1.php"><h1 class="title"><strong>Experimente</strong><br> seu sofa</h1></a>
@@ -30,19 +51,19 @@
             Compre e experimente em casa por 10 dias
         </p>
 
-        <p>de R$ 4.529,75</p>
-        <p class="m-0">por <strong>R$ 4.029,75</strong> à vista <strong>(5% de desconto)</strong> ou</p>
+        <p>de <span class="money">R$ 4.529,75</span></p>
+        <p class="m-0">por <strong class="money">R$ 4.029,75</strong> à vista <strong>(5% de desconto)</strong> ou</p>
         <h1 class="text-dark fw-bold price py-32 m-0">10 X R$ 424,18</h1>
     </div>
 
     <div class="accordion container-fluid p-0" id="meusofa">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 Meu sofá
             </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapsed collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body p-0 m-0">
                     <div class="meusofa-item px-5 pt-4 pb-2 d-flex flex-column">
                         <p class="title">Estilo</p>
@@ -132,7 +153,7 @@
     </div>
 
     <div class="container d-flex justify-content-center text-center flex-column">
-    <a href="experimente.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
+        <a href="experimente.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
             <span class="cart-icon"></span>
             Experimentar em casa
         </a>
@@ -173,4 +194,11 @@
             <p>Ou experimente na <strong>Soft Guide Shop Londrina</strong> e conheça tudo o que precisa para montar o sofá perfeito para você.</p>
             <a href="#">Agendar visita ></a>
         </div>
+    </div>
+
+    <div class="container d-flex justify-content-center text-center flex-column">
+        <a href="experimente.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
+            <span class="cart-icon"></span>
+            Experimentar em casa
+        </a>
     </div>

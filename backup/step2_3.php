@@ -11,7 +11,7 @@
             <div class="col-6">
                 <div class="col-12">
                     <h1 class="m-0 p-0">Sofá <strong class="px-1">Moma</strong></h1>
-                    <p class="p-0 m-0">R$5.000 à vista</p>
+                    <p class="p-0 m-0"><span class="money">R$5.000</span> à vista</p>
                 </div>
             </div>
             <div class="col-6">
