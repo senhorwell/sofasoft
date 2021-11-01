@@ -49,12 +49,12 @@
             <div class="container d-flex justify-content-center">
             <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#freteModal">Saiba mais ></button>
             <div class="modal fade pt-32 mt-5" id="freteModal" tabindex="-1" aria-labelledby="freteModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog mx-0 px-0">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body px-0">
                             <h1 class="text-dark"><strong>Informações sobre Moma</strong></h1>
                         </div>
                     </div>
@@ -62,12 +62,12 @@
             </div>
                 <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Personalizar ></button>
                 <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
+                    <div class="modal-dialog mx-0 px-0">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body px-0">
                             <div class="container d-flex justify-content-center text-center pb-32">
                                 <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração para começar</strong></h1>
                             </div>
@@ -91,12 +91,12 @@
             <div class="container d-flex justify-content-center">
             <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#freteModal">Saiba mais ></button>
             <div class="modal fade pt-32 mt-5" id="freteModal" tabindex="-1" aria-labelledby="freteModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog mx-0 px-0">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body px-0">
                             <h1 class="text-dark"><strong>Informações sobre Clausi</strong></h1>
                         </div>
                     </div>
@@ -104,12 +104,12 @@
             </div>
                 <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Personalizar ></button>
                 <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
+                    <div class="modal-dialog mx-0 px-0">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body px-0">
                             <div class="container d-flex justify-content-center text-center pb-32">
                                 <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração para começar</strong></h1>
                             </div>
@@ -133,12 +133,12 @@
             <div class="container d-flex justify-content-center">
             <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#freteModal">Saiba mais ></button>
             <div class="modal fade pt-32 mt-5" id="freteModal" tabindex="-1" aria-labelledby="freteModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog mx-0 px-0">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body px-0">
                             <h1 class="text-dark"><strong>Informações sobre Tuim</strong></h1>
                         </div>
                     </div>
@@ -146,12 +146,12 @@
             </div>
                 <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Personalizar ></button>
                 <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
+                    <div class="modal-dialog mx-0 px-0">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body px-0">
                             <div class="container d-flex justify-content-center text-center pb-32">
                                 <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração para começar</strong></h1>
                             </div>

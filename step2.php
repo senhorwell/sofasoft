@@ -142,7 +142,7 @@
             <h2 class="accordion-header" id="design">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseDesign" aria-expanded="true" aria-controls="collapseDesign">
-                    Defina o design
+                    Escolha o design
                 </button>
             </h2>
             <div id="collapseDesign" class="accordion-collapse collapse" aria-labelledby="design"
