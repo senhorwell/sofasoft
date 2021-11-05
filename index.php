@@ -5,7 +5,7 @@
 </div>
 
 <div class="container-fluid px-0 mx-0">
-    <div class="container px-5 text-center">
+    <div class="container px-5 py-16 text-center">
         <h1 class="title">Os sofás mais <strong>confortáveis</strong> e <strong>resistentes,</strong> personalizados por você.</h1>
     </div>
     <?php include 'carrossel.php';?>
