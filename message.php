@@ -4,7 +4,7 @@
             <div class="col-6 ese">
                 <p class="p-0 m-0">Escolha seu estilo</p>
             </div>
-            <div class="col-6 d-flex pm">
+            <div class="col-6 d-flex pm justify-content-end">
                 <i class="icon-down">
                     <?php include 'img/svg/down.svg';?>
                 </i>

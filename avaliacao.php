@@ -28,4 +28,8 @@
             </div>
         </div>
     </div>
+
+    <a href="experimente.php" class="btn-colored mx-3 mt-4 fs-light d-flex justify-content-around align-items-center">
+        Escolher meu estilo
+    </a>
 </div>

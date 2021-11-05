@@ -33,10 +33,19 @@ a {
 .pb-32 {
     padding-bottom: 32px !important;
 }
-
+.pb-64 {
+    padding-bottom: 64px !important;
+}
+.pl-64 {
+    padding-left: 64px !important;
+}
 .py-32 {
     padding-top: 64px !important;
     padding-bottom: 64px !important;
+}
+.py-16 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
 }
 
 .pb-16 {
@@ -44,8 +53,8 @@ a {
 }
 
 .blue-border {
-    border: 2px solid #5ea5fe;
-    border-radius: 8px;
+    border: 1px solid #94bece;
+    border-radius: 10px;
     line-height: 2rem;
 }
 
@@ -73,6 +82,14 @@ h1.title {
     font-family: 'Raleway';
 }
 
+#sofazinho p {
+    color: #94bece;
+}
+
+#sofazinho h1,
+#sofazinho h1 strong {
+    font-size: 22px !important;
+}
 #copyright p {
     font-size: 9px !important;
     line-height: 0.8rem;
@@ -85,6 +102,9 @@ h1.title strong {
     font-family: 'Raleway-bold';
 }
 
+#sofazinho p strong {
+    color: #36445f !important;
+}
 .btn-colored {
     border: none;
     border-radius: 100px;
@@ -95,14 +115,15 @@ h1.title strong {
 }
 
 .btn-colored-border {
-    bottom: -50px;
-    position: relative;
+    bottom: -35px;
+    position: absolute;
     border: none;
     border-radius: 100px;
     padding: 16px 32px;
-    font-size: 16px !important;
-    background: #5ea5ff;
-    color: white;
+    font-size: 18px !important;
+    background: #3c72b0;
+    width: 90%;
+    color: white !important;
 }
 
 .fa {
@@ -185,6 +206,13 @@ h1.title strong {
     height: 60px;
 }
 
+@media (min-width: 993px) {
+    .card {
+        height: 300px !important;
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
 @media screen and (max-width: 992px) {
     #footer div.logo {
         border-bottom: 1px solid #ccc;
@@ -237,6 +265,22 @@ h1.title strong {
     background: #f5f5f7 !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
+
+.bg-black p,
+.bg-black h1,
+.bg-black h1 strong,
+.bg-dark p,
+.bg-dark h1 {
+    color: #fff !important;
+}
+.bg-dark p {
+    font-size: 19px;
+    font-weight: normal;
+    font-family: 'Raleway';
+}
 .bg-sofa {
     background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png);
     background-size: cover;
@@ -250,6 +294,54 @@ h1.title strong {
     height: 100%;
 }
 
+#nhec {
+    background: url(http://localhost/sofasoft/img/img/nhec.jpg);
+    background-size: cover;
+    background-position-x: center;
+    height: 100%;
+}
+
+#d40 {
+    background: url(http://localhost/sofasoft/img/img/d40.jpg);
+    background-size: cover;
+    background-position-x: center;
+    height: 100%;
+}
+#d40 h1 {
+    color: white !important;
+}
+
+#sofazinho {
+    background: url(http://localhost/sofasoft/img/img/sofazinho.jpg);
+    background-size: cover;
+    background-position-x: center;
+    height: 100%;
+}
+
+#sofa-tenis {
+    background: url(http://localhost/sofasoft/img/img/sofa-tenis.jpg);
+    background-size: cover;
+    background-position-x: center;
+    height: 100%;
+}
+
+#sofa-tenis h1 {
+    color: #afafaf;
+}
+
+#sofa-sorriso {
+    background: url(http://localhost/sofasoft/img/img/sofa-sorriso.jpg);
+    background-size: cover;
+    background-position-x:30%;
+    height: 140%;
+}
+
+.bg-soft {
+    background: url(http://localhost/sofasoft/img/img/bg-soft.JPEG);
+    background-size: cover;
+    background-position-x:center;
+    height: 100%;
+}
 .bg-tuim {
     background: #4b4b4b !important;
     color: white !important;
@@ -329,6 +421,26 @@ h1.title strong {
     text-decoration: none;
 }
 
+#dobro {
+    background: #36445f !important;
+}
+#dobro h1 strong {
+    color: #fff !important;
+}
+
+#dobro .circle {
+    border: 4px solid #94bece;
+    border-radius: 100px;
+    color: white;
+}
+#dobro .circle h1 {
+    font-size: 140px !important;
+    font-family: 'Raleway-bold';
+}
+
+#dobro .circle h1 span {
+    font-size: 100px;
+}
 #footer {
     background: #eee;
 }
@@ -391,6 +503,7 @@ h1.title strong {
     #comparando h1.title strong {
         font-size: 24px !important;
         font-family: 'Raleway-bold';
+        font-weight: 900;
     }
     #message a,
     #price a {
@@ -675,7 +788,7 @@ h1.price {
 }
 
 #message .pm {
-    justify-content: center;
+    justify-content: end;
 }
 
 
@@ -1040,4 +1153,41 @@ h1.price {
     font-size: 18px;
     font-weight: 900 !important;
 }
+#como-funciona .container {
+    border: 1px solid #94bece;
+    border-radius: 20px;
+    background: #fff;
+}
 
+#como-funciona p {
+    color: #94bece;
+}
+#como-funciona .svg-icon svg {
+    width: 70px;
+}
+#carousel-with-text .card {
+    border: 1px solid #eee !important;
+}
+
+#carousel-with-text .owl-item {
+    box-shadow: 0;
+    transition: 1s all;
+    webkit-transition: 1s all;
+}
+#carousel-with-text .active:hover {
+    box-shadow: 0 0 14px 0 rgba(74,74,74,0.20);
+}
+
+#icones-box .svg-icon svg {
+    width: 60px;
+    height: 60px;
+    fill: #000;
+}
+#icones-box h3 {
+    line-height: 1.2rem;
+}
+
+#phone-personalize a.btn-colored {
+    position: relative;
+    bottom: 30px;
+}

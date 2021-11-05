@@ -1,9 +1,6 @@
 <div class="container-fluid pt-32 perguntas">
     <div class="container text-center">
-        <h1 class="title"><strong>Inspire-se</strong> em mais opções de configuração</h1>
-        <p>Preencha o formulário e receba o catálogo com <strong class="px-1">30 sofas</strong> inspiradores criados por clientes arquitetos.</p>
-        <p><strong class="px-1">A tabela de preços vai junto ;)</strong></p>
-        <h1 class="title"><strong>Baixar</strong> catálogo?</h1>
+        <h1 class="title"><strong>Baixe o catálogo</strong> e inspire-se em <strong>sofás personalizados</strong> por clientes e arquitetos</h1>
 
         <form action="" method="get" class="text-start">
             <div class="form-group py-2">
@@ -11,7 +8,11 @@
                 <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
             </div>
             <div class="form-group py-2">
-                <label for="name">Celular *</label>
+                <label for="email">Email *</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group py-2">
+                <label for="phone">Celular *</label>
                 <input type="phone" class="form-control" id="phone" aria-describedby="phoneHelp">
             </div>
             <div class="form-group py-2">
