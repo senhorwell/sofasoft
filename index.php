@@ -278,7 +278,7 @@
     <h1 class="title"><strong>Como</strong> fazemos?</h1>
 
     <p class="py-32 px-3">Acompanhamos o mercado de míveis a mais de 20 anos e cansamos de ver sofás super desconfortáveis, que afunda rapidinho e ainda faziam NHEC NHEC então criamos uma forma mais inteligente de fazer sofás e fundamos a Soft.</p>
-    <img class="w-100" src="http://localhost/sofasoft/img/img/equipe.jpg"/>
+    <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/equipe.jpg"/>
     <p class="pt-32 px-3">A SOFT é uma Startup, com atendimento super humanizado, Lojas de Experimentação, Demonstração Online e uma plataforma digital onde você personaliza sua experiência de conforto montando seu próprio sofá.</p>
 </div>
 
@@ -290,7 +290,7 @@
         <p class="text-center">Com um <stong>modelo de negócio inovador,</stong>entregamos os <strong>sofás direto das fábricas</strong>transformando os custos dos intermediários em <strong>qualidade para nossos sofás.</strong>Por isso, praticamos preços democráticos mesmo utilizando o <strong>dobro de espuma</strong>dos sofás tradicionais e algumas das <strong>melhores matérias-primas</strong>do mercado, como a espuma D40</p>
     </div>
     <div class="container px-0">
-        <img class="w-100" src="http://localhost/sofasoft/img/img/phone-personalize.jpg"/>
+        <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/phone-personalize.jpg"/>
     </div>
 </div>
 <?php include 'form.php';?>
