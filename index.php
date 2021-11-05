@@ -220,21 +220,8 @@
     </div>
 </div>
 
-<div class="container-fluid">
-    <div class="container">
-        <div class="owl-carousel owl-theme">
-            <div class="item d-flex justify-content-center align-items-center">
-                <img src="/img/img/phone.png">
-            </div>
-            <div class="item d-flex justify-content-center align-items-center">
-                <img src="/img/img/phone.png">
-            </div>
-            <div class="item d-flex justify-content-center align-items-center">
-                <img src="/img/img/phone.png">
-            </div>
-        </div>
-    </div>
-</div>
+<?php include 'passos.php';?>
+
 
 <div id="propaganda-card" class="container-fluid py-32">
     <div class="container d-flex flex-wrap">
