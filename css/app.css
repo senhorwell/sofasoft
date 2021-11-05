@@ -12,6 +12,10 @@ strong {
     font-family: 'Raleway-bold' !important;
 }
 
+#propaganda-card a {
+    font-size: 13px !important;
+}
+
 strong.normal {
     font-family: 'Raleway' !important;
     font-weight: normal !important;
