@@ -1,6 +1,25 @@
 
 
 $(document).ready(function() {
+    document.addEventListener('scroll', function (event) {
+        let top = window.pageYOffset || document.documentElement.scrollTop;
+
+        console.log(window.pageYOffset);
+        if (top > 280) {
+            $("#carousel").addClass("position-fixed");
+            $("#carousel").addClass("fixed-top");
+            $("#carousel").addClass("bg-white");
+            $("#carousel-fake").addClass("show");
+            $("#carousel").addClass("minify");
+        }
+        if (top > 524 || top < 280) {
+            $("#carousel").removeClass("minify");
+            $("#carousel").removeClass("position-fixed");
+            $("#carousel").removeClass("fixed-top");
+            $("#carousel").removeClass("bg-white");
+            $("#carousel-fake").removeClass("show");
+        }
+    }, true);
 
     lightbox.option({
         'resizeDuration': 200,
@@ -41,6 +60,51 @@ $(document).ready(function() {
             }
         }
     });
+
+    $('.detalhes.owl-carousel').owlCarousel({
+        loop: true,
+        center: true,
+        items: 1,
+        margin: 10,
+        nav: true,
+        dots: false,
+        responsive: {
+            0: {
+                margin:10,
+                loop:true,
+                autoWidth:true,
+                items: 2
+            },
+            900: {
+                items: 3
+            },
+            1000: {
+                items: 6
+            }
+        }
+    });
+    
+    $('.experimente.owl-carousel').owlCarousel({
+        loop: true,
+        center: true,
+        items: 1,
+        margin: 10,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: {
+                margin:10,
+            },
+            900: {
+                items: 3
+            },
+            1000: {
+                items: 6
+            }
+        }
+    });
+
+
     $('.owl-carousel').owlCarousel({
         loop: true,
         center: true,
@@ -62,7 +126,9 @@ $(document).ready(function() {
                 items: 6
             }
         }
-    })
+    });
+
+    
 
     function rgt() {
         $('#costurando').animate({ left: "500" }, 10000, hider);

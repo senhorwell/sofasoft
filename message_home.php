@@ -5,7 +5,7 @@
                 <p class="p-0 m-0">Escolha seu estilo</p>
             </div>
             <div class="col-6 d-flex pm">
-                <a href="#" class="text-center">Escolher meu estilo</a>
+                <a href="step1.php" class="text-center">Escolher meu estilo</a>
             </div>
         </div>
     </div>

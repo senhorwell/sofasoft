@@ -68,12 +68,14 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body px-0">
-                            <div class="container d-flex justify-content-center text-center pb-32">
+                            <div class="container d-flex flex-column align-items-center justify-content-center text-center pb-32">
                                 <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração para começar</strong></h1>
+                                <h1 class="title px-5"><strong class="fw-bold">Moma</strong></h1>
+                            
                             </div>
 
                             <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
-                                <?php include 'configuracao.php';?>
+                                <?php include 'carrossel.php';?>
                             </div>
                             </div>
                         </div>
@@ -110,8 +112,9 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body px-0">
-                            <div class="container d-flex justify-content-center text-center pb-32">
+                            <div class="container d-flex flex-column align-items-center justify-content-center text-center pb-32">
                                 <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração para começar</strong></h1>
+                                <h1 class="title px-5"><strong class="fw-bold">Clausi</strong></h1>
                             </div>
 
                             <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
@@ -152,8 +155,9 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body px-0">
-                            <div class="container d-flex justify-content-center text-center pb-32">
+                            <div class="container d-flex flex-column align-items-center justify-content-center text-center pb-32">
                                 <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração para começar</strong></h1>
+                                <h1 class="title px-5"><strong class="fw-bold">Tuim</strong></h1>
                             </div>
 
                             <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
@@ -179,7 +183,5 @@
         </div>
     </div>
     
-    <?php include 'consultor.php';?>
-    <?php include 'consultor_pessoal.php';?>
-
-<?php include 'footer.php';?>
+<?php include 'consultor.php';?>
+<?php include 'consultor_pessoal.php';?>

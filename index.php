@@ -4,7 +4,7 @@
     <?php include 'menu.php';?>
 </div>
 
-<div class="container-fluid px-0 mx-0">
+<div class="container-fluid px-0 mx-0 principal">
     <div class="container px-5 py-16 text-center">
         <h1 class="title">Os sofás mais <strong>confortáveis</strong> e <strong>resistentes,</strong> personalizados por você.</h1>
     </div>
@@ -13,7 +13,7 @@
 
 
 <div id="icones-box" class="container-fluid px-0 mx-0">
-    <div class="container d-inline-flex flex-wrap justify-content-between">
+    <div class="home container d-inline-flex flex-wrap justify-content-between">
         <div class="col-3 d-flex flex-column align-items-center text-center">
             <div class="svg-icon text-center">
                 <?php include 'img/svg/truck.svg';?>
@@ -45,8 +45,8 @@
 </div>
 
 <div id="como-funciona" class="container-fluid bg-gray py-32">
+    <h1 class="title pb-32 text-center"><strong>Como</strong> funciona?</h1>
     <div class="container py-32 text-center">
-        <h1 class="title pb-32"><strong>Como</strong> funciona?</h1>
         <div class="steps d-flex flex-column justify-content-center align-items-center">
             
         <i class="step1 step selected d-flex justify-content-center align-items-center">
@@ -90,7 +90,7 @@
 
 <div class="container-fluid pb-64">
     <div class="container blue-border position-relative text-center px-2 py-32 d-flex flex-column justify-content-center align-items-center">
-        <h1 class="title"><strong>Compre pelo site </strong>e receba seu <strong>sofá em casa,</strong>personalizado,<strong>direto da fábrica.</strong></h1>
+        <h1 class="title"><strong>Compre pelo site </strong>e receba seu <strong>sofá em casa, </strong>personalizado, <strong>direto da fábrica.</strong></h1>
         <a href="step1.php" class="btn-colored-border fs-light d-flex justify-content-around align-items-center">
             Escolher meu estilo
         </a>
@@ -102,7 +102,7 @@
 
 <div id="nhec" class="container-fluid">
     <div class="container py-32">
-        <h1 class="title pb-4">Almofadas <span class="fw-bold">afundaram?</span></h1>
+        <h1 class="title pb-4 text-light">Almofadas <span class="fw-bold d-block">afundaram?</span></h1>
         <h1 class="title"><strong class="fw-bold">NHEC NHEC</strong></h1>
         <h1 class="title"><strong>apareceu?</strong></h1>
     </div>
@@ -116,16 +116,16 @@
 
 <div id="d40" class="container-fluid">
     <div class="container py-32">
-        <h1 class="title">Espuma <span class="fw-bold">D40 </span>e as <span class="fw-bold">melhores matérias-primas</span>do mercado</h1>
+        <h1 class="title">Espuma <span class="fw-bold">D40 </span>e as <span class="fw-bold">melhores matérias-primas </span>do mercado</h1>
     </div>
 </div>
 
 <div id="sofazinho" class="container-fluid">
-    <div class="container py-32">
+    <div class="container pt-32">
         <div class="col-6 offset-6 d-flex flex-column align-items-end justify-content-end text-center">
             <h1 class="title">Aqui separamos os <strong>SOFÁS </strong>dos <strong>"sofazinhos"</strong></h1>
             <h1 class="title py-4"><strong>145kg 10 mil </strong>ciclos</h1>
-            <p class="title"><strong>Laboratório exclusivo</strong></p>
+            <p class="title mb-0 text-center"><strong>Laboratório exclusivo</strong></p>
             <p class="title">Testes robustos de qualidade simulam quase <strong>10 anos</strong> de uso</p>
         </div>
     </div>
@@ -154,7 +154,7 @@
 </div>
 
 <div id="sofa-tenis" class="container-fluid">
-    <div class="container py-16 d-flex flex-column justify-content-end text-center">
+    <div class="container pb-16 d-flex flex-column justify-content-end text-center">
         <h1 class="title pb-32">Escolha <strong>do jeito que você gosta</strong></h1>
         <p class="fw-bold p-0 m-0">3 tipos de assento</p>
         <a href="#">Saiba mais ></a>
@@ -162,13 +162,13 @@
 </div>
 
 <div id="sofa-sorriso" class="container-fluid">
-    <div class="container py-16 d-flex flex-column justify-content-end text-center">
+    <div class="container pb-16 d-flex flex-column justify-content-end text-center">
         <h1 class="title">Sim.</h1>
         <h1 class="title"><strong>Você pode, </strong>e deve, <strong>experimentar </strong>antes de decidir.</h1>
-        <p class="fw-bold p-0 m-0">3 tipos de assento</p>
-        <a href="#">Saiba mais ></a>
     </div>
 </div>
+
+<?php include 'detalhes.php';?>
 
 <div class="container-fluid py-32 bt-gray footer-experiment">
     <div class="container d-flex flex-column align-items-center text-center">
@@ -274,11 +274,10 @@
         <a href="step1.php" class="mb-4 btn-colored fs-light d-flex justify-content-around align-items-center">
             Escolher meu estilo
         </a>
-        <p class="text-center">Com um <stong>modelo de negócio inovador,</stong>entregamos os <strong>sofás direto das fábricas</strong>transformando os custos dos intermediários em <strong>qualidade para nossos sofás.</strong>Por isso, praticamos preços democráticos mesmo utilizando o <strong>dobro de espuma</strong>dos sofás tradicionais e algumas das <strong>melhores matérias-primas</strong>do mercado, como a espuma D40</p>
+        <p class="text-center text-dark">Com um <stong>modelo de negócio inovador,</stong>entregamos os <strong>sofás direto das fábricas </strong>transformando os custos dos intermediários em <strong>qualidade para nossos sofás.</strong> Por isso, praticamos preços democráticos mesmo utilizando o <strong>dobro de espuma </strong>dos sofás tradicionais e algumas das <strong>melhores matérias-primas </strong>do mercado, como a espuma D40</p>
     </div>
     <div class="container px-0">
         <img class="w-100" src="https://www.fronte.net.br/clientes/sofasoft/img/img/phone-personalize.jpg"/>
     </div>
 </div>
 <?php include 'form.php';?>
-<?php include 'footer.php';?>

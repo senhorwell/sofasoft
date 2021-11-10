@@ -1,47 +1,25 @@
 <?php include 'header.php';?>
-<?php include 'price.php';?>
+<?php include 'message.php';?>
 <div class="container-fluid px-0 mx-0" style="margin-top:65px">
     <?php include 'menu.php';?>
 </div>
 
-<div class="container py-16 d-flex justify-content-center align-items-center text-center">
-    <div class="col-6 d-flex justify-content-around align-items-center">  
-        <a href="index.php">
-            <i class="step1 step d-flex justify-content-center align-items-center">
-                1
-            </i>
-        </a>
-        <i class="d-flex justify-content-center align-items-center">
-            <?php include 'img/svg/traco-step.svg';?>
-        </i>
-        <a href="#">
-            <i class="step2 step selected d-flex justify-content-center align-items-center">
-                2
-            </i>
-        </a>
-        <i class="d-flex justify-content-center align-items-center">
-            <?php include 'img/svg/traco-step.svg';?>
-        </i>
-        <a href="">
-            <i class="step3 step d-flex justify-content-center align-items-center">
-                3
-            </i>
-        </a>
-    </div>
+
+
+<div class="container-fluid py-32 px-0 m-0">
+
+    <?php include 'configuracao.php';?>
 </div>
 
+<div class="container pb-32 d-flex justify-content-center align-items-center text-center">
+    <img src="img/img/step1.png" />
+</div>
 <div class="container d-flex justify-content-center text-center">
-    <h1 class="title">Personalize seu<br> <strong>Moma</strong></h1>
+    <h1 class="title">Personalize seu<br> <strong>moma</strong></h1>
 </div>
-
-<div id="carousel" class="container-fluid px-0 m-0 mt-5">
-    <?php include 'personalize_carousel.php';?>
-</div>
-<div id="carousel-fake" class="d-none"></div>
-
 <div class="container-fluid whatsapp-container position-fixed bottom-0">
     <div class="container whatsapp-box d-flex justify-content-center  text-center my-4">
-        <a class="d-flex" href="http://wa.me/554399514569" target="_blank"><img src="https://www.fronte.net.br/clientes/sofasoft/img/svg/whatsapp.svg" />
+        <a class="d-flex" href="http://wa.me/554399514569" target="_blank"><img src="img/svg/whatsapp.svg" />
             <h1>Comprar pelo <strong class="px-1">WhatsApp</strong></h1>
         </a>
     </div>
@@ -58,7 +36,7 @@
             </h2>
             <div id="collapseFormato" class="accordion-collapse collapse" aria-labelledby="formato"
                 data-bs-parent="#accordionParent">
-                <div class="accordion-body p-0">
+                <div class="accordion-body">
                     <div class="accordion" id="subFormato">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFormatoFormato">
@@ -84,20 +62,31 @@
                             <div id="collapseFormatoMedida" class="accordion-collapse collapse"
                                 aria-labelledby="headingFormatoMedida" data-bs-parent="#subFormato">
                                 <div class="accordion-body">
-                                    <ul class="w-100 p-0 m-0 radio-group">
-                                    <?php        
-                                        for($i=0; $i < 9; $i++){
-                                    ?>
-                                        <li class="w-100 radio">
-                                            <span class="d-flex justify-content-between w-100">
-                                                <p class="med">2,22 x 2,22m</p>
-                                                <p class="price">-R$ 1.400,00</p>
-                                                <i class="fa fa-check-circle hidden" style = 'display: none;'></i>
-                                        </span>
+                                    <ul class="w-100 p-0 m-0">
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>2,22 x 2,22m</p>
+                                                <p>-R$ 1.400,00</p>
+                                            </a>
                                         </li>
-                                    <?php        
-                                        }
-                                    ?>
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>2,22 x 2,22m</p>
+                                                <p>-R$ 1.400,00</p>
+                                            </a>
+                                        </li>
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>2,22 x 2,22m</p>
+                                                <p>-R$ 1.400,00</p>
+                                            </a>
+                                        </li>
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>2,22 x 2,22m</p>
+                                                <p>-R$ 1.400,00</p>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -113,21 +102,53 @@
                             <div id="collapseFormatoBraco" class="accordion-collapse collapse"
                                 aria-labelledby="headingFormatoBraco" data-bs-parent="#subFormato">
                                 <div class="accordion-body">
-                                    <ul class="w-100 p-0 m-0 radio-group">
-                                    <?php        
-                                        for($i=0; $i < 9; $i++){
-                                    ?>
-                                        <li class="w-100 radio">
-                                            <span class="d-flex justify-content-between w-100">
-                                                <p class = 'med'>2,22 x 2,22m</p>
-                                                <p class="price">-R$ 1.400,00</p>
-                                                <i class="fa fa-check-circle hidden" style = 'display: none;'></i>
-                                        </span>
+                                    <ul class="w-100 p-0 m-0">
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>25cm</p>
+                                            </a>
                                         </li>
-                                    <?php        
-                                        }
-                                    ?>
-                                    </ul>   
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                     <ul class="w-100 p-0 m-0">
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>2,22 x 2,22m</p>
+                                                <p>-R$ 1.400,00</p>
+                                            </a>
+                                        </li>
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>2,22 x 2,22m</p>
+                                                <p>-R$ 1.400,00</p>
+                                            </a>
+                                        </li>
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>2,22 x 2,22m</p>
+                                                <p>-R$ 1.400,00</p>
+                                            </a>
+                                        </li>
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>2,22 x 2,22m</p>
+                                                <p>-R$ 1.400,00</p>
+                                            </a>
+                                        </li>
+                                    </ul>           <p>30cm</p>
+                                            </a>
+                                        </li>
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>35cm</p>
+                                            </a>
+                                        </li>
+                                        <li class="w-100">
+                                            <a href="#" class="d-flex justify-content-between w-100">
+                                                <p>40cm</p>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -142,12 +163,12 @@
             <h2 class="accordion-header" id="design">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseDesign" aria-expanded="true" aria-controls="collapseDesign">
-                    Escolha o design
+                    Defina o design
                 </button>
             </h2>
             <div id="collapseDesign" class="accordion-collapse collapse" aria-labelledby="design"
                 data-bs-parent="#accordionParent2">
-                <div class="accordion-body p-0">
+                <div class="accordion-body">
                     <div class="accordion" id="subDesign">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingDesignTecido">
@@ -159,7 +180,9 @@
                             </h2>
                             <div id="collapseDesignTecido" class="accordion-collapse collapse"
                                 aria-labelledby="headingDesignTecido" data-bs-parent="#subDesign">
-                                <?php include 'accordion-items.php';?>
+                                <div class="accordion-body">
+                                    <p class="text-start">item</p>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -172,25 +195,8 @@
                             </h2>
                             <div id="collapseDesignCor" class="accordion-collapse collapse"
                                 aria-labelledby="headingFormatoCor" data-bs-parent="#subFormato">
-                                <div class="accordion-body radio-group d-flex flex-wrap">
-                                    <!-- <?php include 'color-items.php';?> -->
-                                    <?php        
-                                        for($i=0; $i < 8; $i++){
-                                    ?>
-                                    <div class="col-4 radio">
-                                        <div class="cor">
-                                            <span></span>
-                                            <i class="fa fa-check-circle" style="display: none;"></i>
-                                        </div>
-                                        <p>Azul Linho</p>
-                                    </div>
-                                    <?php           
-                                        }
-                                    ?>
-                                    <div class="col-4 duvida">
-                                        <p>Ficou em dúvida?</p>
-                                        <a href="">Solicitar amostras ></a>
-                                    </div>
+                                <div class="accordion-body">
+                                    <?php include 'color-items.php';?>
                                 </div>
                             </div>
                         </div>
@@ -206,12 +212,12 @@
             <h2 class="accordion-header" id="conforto">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseConforto" aria-expanded="true" aria-controls="collapseConforto">
-                    Personalize o conforto
+                    Defina o conforto
                 </button>
             </h2>
             <div id="collapseConforto" class="accordion-collapse collapse" aria-labelledby="conforto"
                 data-bs-parent="#accordionParent3">
-                <div class="accordion-body p-0">
+                <div class="accordion-body">
                     <div class="accordion" id="subConforto">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingConfortoEnchimento">
@@ -224,10 +230,7 @@
                             <div id="collapseConfortoEnchimento" class="accordion-collapse collapse"
                                 aria-labelledby="headingConfortoEnchimento" data-bs-parent="#subConforto">
                                 <div class="accordion-body">
-                                    <div id="collapseConfortoEnchimento" class="accordion-collapse collapse"
-                                        aria-labelledby="headingConfortoEnchimento" data-bs-parent="#subConforto">
-                                        <?php include 'accordion-items.php';?>
-                                    </div>
+                                    <p class="text-start">item</p>
                                 </div>
                             </div>
                         </div>
@@ -242,10 +245,7 @@
                             <div id="collapseConfortoCor" class="accordion-collapse collapse"
                                 aria-labelledby="headingConfortoCor" data-bs-parent="#subConforto">
                                 <div class="accordion-body">
-                                    <div id="collapseConfortoCor" class="accordion-collapse collapse"
-                                        aria-labelledby="headingConfortoCor" data-bs-parent="#subConforto">
-                                        <?php include 'accordion-items.php';?>
-                                    </div>
+                                    <p class="text-start">item</p>
                                 </div>
                             </div>
                         </div>
@@ -260,10 +260,7 @@
                             <div id="collapseConfortoCarregador" class="accordion-collapse collapse"
                                 aria-labelledby="headingConfortoCarregador" data-bs-parent="#subConforto">
                                 <div class="accordion-body">
-                                    <div id="collapseConfortoCarregador" class="accordion-collapse collapse"
-                                        aria-labelledby="headingConfortoCarregador" data-bs-parent="#subConforto">
-                                        <?php include 'accordion-items.php';?>
-                                    </div>
+                                    <p class="text-start">item</p>
                                 </div>
                             </div>
                         </div>
@@ -278,15 +275,15 @@
 
 <div class="container-fluid px-0 m-0 py-32 bg-gray">
     <div class="container d-flex justify-content-center text-center">
-        <a href="experimente.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
+        <button class="btn-colored d-flex justify-content-between">
             <span class="cart-icon"></span>
             Experimentar
-        </a>
+        </button>
     </div>
 
     <div class="container d-flex justify-content-center text-center py-32 flex-column px-3">
-        <p class="text-center">de <span class="money">R$4.529,75</span></p>
-        <p class="text-center">por <strong class="money">R$ 4.029,75</strong> à vista <strong>(5% de desconto)</strong> ou</p>
+        <p class="text-center">de R$4.529,75</p>
+        <p class="text-center">por <strong>R$ 4.029,75</strong> à vista <strong>(5% de desconto)</strong> ou</p>
     </div>
     <div class="container d-flex justify-content-center pb-32 text-center">
         <h1 class="text-dark title text-center fw-bold">10X R$ 424,18</h1>
@@ -294,7 +291,7 @@
 
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
-        <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/truck.svg" />
+        <img style="width:50px" src="/img/svg/truck.svg" />
         <h1 class="text-dark fw-bold text-center">Frete grátis</h1>
         <p class="text-center">para diversos estados do Brasil</p>
         <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#freteModal">Saiba mais ></button>
@@ -313,7 +310,7 @@
     </div>
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
-        <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/casa.svg" />
+        <img style="width:50px" src="/img/svg/casa.svg" />
         <h1 class="text-dark fw-bold text-center px-5">10 dias para experimentar</h1>
         <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
         <div class="modal fade" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
@@ -331,7 +328,7 @@
     </div>
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
-        <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/selo.svg" />
+        <img style="width:50px" src="/img/svg/selo.svg" />
         <h1 class="text-dark fw-bold text-center px-5">2 anos de garantia</h1>
         <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#garantiaModal">Saiba mais
             ></button>
@@ -351,9 +348,9 @@
     </div>
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
-        <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/chat.svg" />
+        <img style="width:50px" src="/img/svg/chat.svg" />
         <h1 class="text-dark fw-bold text-center px-5">Ajuda para comprar</h1>
-        <p class="text-center p-0 m-0">Converse com um especialista online ou ligue para:</p>
+        <p class="text-center p-0 m-0">Comnverse com um especialista online ou ligue para:</p>
         <a href="tel:5543991025500">(43) 9 9102-5500</a>
         <button type="button" class="pt-3 btn-link" data-bs-toggle="modal" data-bs-target="#ajudaModal">Saiba mais
             ></button>
@@ -372,10 +369,10 @@
     </div>
 
     <div class="container d-flex justify-content-center text-center">
-        <a href="experimente.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
+        <button class="btn-colored d-flex justify-content-between">
             <span class="cart-icon"></span>
             Experimentar
-        </a>
+        </button>
     </div>
 </div>
 <div id="duvida" class="container-fluid px-0 m-0 py-32">
@@ -385,25 +382,6 @@
         <p class="text-light w-100 px-5 text-center">Enviamos 3 amostras de tecido para sua casa.</p>
         <a href="#" class="text-center">Solicitar amostras ></a>
     </div>
-</div>
-
-<div class="container-fluid px-0 m-0 bg-sofa">
-    <h4 class="text-light text-center pt-5">Lindo ao olhar, magnífico para usar.</h4>
-</div>
-<div class="container-fluid px-0 m-0 bg-sofa">
-    <h4 class="text-light text-center pt-5">Na medida para o seu conforto.</h4>
-    <h4 class="text-light text-center">Apoio da cabeça aos pés.</h4>
-</div>
-<div class="container-fluid px-0 m-0 bg-sofa">
-    <h4 class="text-light text-center pt-5 px-3">Sentar, ler, comer, deitar, maratonar encosto ajustável com 7 posições e almofadas soltas.</h4>
-</div>
-<div class="container-fluid px-0 m-0 bg-sofa">
-    <h4 class="text-light text-center pt-5">Cantos ou retos, compactos ou grandões</h4>
-</div>
-<div class="container-fluid px-0 m-0 bg-sofa">
-    <h4 class="text-light text-center pt-5">Clique para abrir e fechar não precisa se levantar.</h4>
-    <h4 class="text-light text-center">(opção manual também disponível)</h4>
-
 </div>
 
 <div id="medindo" class="container-fluid px-0 m-0 py-32">
@@ -424,13 +402,29 @@
     <div class="container d-flex justify-content-end text-end flex-column">
         <h1 class="text-light px-3">Suporta<br> pessoas de</h1>
         <h1 class="px-3 title fw-bold"><strong>145kg</strong><br></h1>
-        <div class="box b col-7 offset-5 pt-5" data-aos="flip-down">
-            <p class="pt-5 text-light">Aprovado em laboratório de qualidade especializado, e testes de <strong>10
-                    mil</strong> ciclos.</p>
-            <p class="text-light p-0 m-0"><strong>9 anos</strong> sentando-se</p>
-            <p class="fw-bold text-light">3 vezes ao dia</p>
-        </div>
+
+            <div class="col-6 offset-6">
+                <p class="pt-5 text-light">Aprovado em laboratório de qualidade especializado, e testes de <strong>10
+                        mil</strong> ciclos.</p>
+                <p class="text-light p-0 m-0"><strong>9 anos</strong> sentando-se</p>
+                <p class="fw-bold text-light">3 vezes ao dia</p>
+            </div>
     </div>
+</div>
+<div class="container-fluid px-0 m-0">
+    <img class="w-100" src="img/img/sofa1.png" />
+</div>
+<div class="container-fluid px-0 m-0">
+    <img class="w-100" src="img/img/sofa1.png" />
+</div>
+<div class="container-fluid px-0 m-0">
+    <img class="w-100" src="img/img/sofa1.png" />
+</div>
+<div class="container-fluid px-0 m-0">
+    <img class="w-100" src="img/img/sofa1.png" />
+</div>
+<div class="container-fluid px-0 m-0">
+    <img class="w-100" src="img/img/sofa1.png" />
 </div>
 
 <?php include 'avaliacao.php';?>
@@ -443,9 +437,10 @@
 </div>
 
 
-<?php include 'perguntas.php';?>
 
-<script src="js/aos.js"></script>
+<?php include 'perguntas.php';?>
+<?php include 'form.php';?>
+
 <script src="js/visibility.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 

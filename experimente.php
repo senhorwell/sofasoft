@@ -1,10 +1,7 @@
 <?php include 'header.php';?>
 <?php include 'price.php';?>
-<div class="container-fluid px-0 mx-0" style="margin-top:100px">
-    <?php include 'configuracao.php';?>
-</div>
     <div class="container-fluid py-32 px-0">
-        <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
+        <div class="container py-16 d-flex justify-content-center align-items-center text-center">
             <div class="col-6 d-flex justify-content-around align-items-center">  
                 <a href="index.php">
                     <i class="step1 step d-flex justify-content-center align-items-center">
@@ -29,9 +26,12 @@
                 </a>
             </div>
         </div>
-        <div class="container d-flex justify-content-center align-items-center text-center">
+        <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
             <a href="step2_1.php"><h1 class="title"><strong>Experimente</strong><br> seu sofa</h1></a>
         </div>
+
+        <?php include 'configuracao.php';?>
+
         <div class="container d-flex justify-content-center align-items-center text-center">
             <a class="arrow-down" href="#">
                 <i class="icon-down">

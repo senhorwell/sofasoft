@@ -33,7 +33,9 @@ a {
 .pt-32 {
     padding-top: 32px !important;
 }
-
+.mt-64 {
+    margin-top: 64px !important;
+}
 .pb-32 {
     padding-bottom: 32px !important;
 }
@@ -86,6 +88,10 @@ h1.title {
     font-family: 'Raleway';
 }
 
+.principal h1.title,
+.principal h1.title strong {
+    font-size: 24px !important;
+}
 #sofazinho p {
     color: #94bece;
 }
@@ -196,7 +202,16 @@ h1.title strong {
     left: 0px;
 }
 
-
+.detalhes .owl-prev,
+.detalhes .owl-next {
+    top:60%;
+}
+.detalhes .owl-next {
+    right: 20px;
+}
+.detalhes .owl-prev {
+    left: 20px;
+}
 /*.medidas .card .estilo {
     font-weight: 900;
 }*/
@@ -265,10 +280,37 @@ h1.title strong {
     width: 30px;
 }
 
+#carousel-fake {
+    height: 0px;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+#carousel-fake.show{
+    height: 330px !important;
+    visibility: visible;
+    opacity: 1;
+    transition: height 1s;
+    display: block !important;
+}
+
+#carousel .card {
+    transition: width 0.2s;
+    transition: height 0.2s;
+}
+.minify .card{
+    height: 220px !important;
+    width: 220px !important;
+}
+.bg-white {
+    background: #fff !important;
+}
 .bg-gray {
     background: #f5f5f7 !important;
 }
-
+.bg-dark {
+    background: #39383d !important;
+}
 .bg-black {
     background: #000 !important;
 }
@@ -305,6 +347,11 @@ h1.title strong {
     height: 100%;
 }
 
+#nhec .fw-bold{
+    display: block;
+    clear: both;
+}
+
 #d40 {
     background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/d40.jpg);
     background-size: cover;
@@ -329,10 +376,6 @@ h1.title strong {
     height: 100%;
 }
 
-#sofa-tenis h1 {
-    color: #afafaf;
-}
-
 #sofa-sorriso {
     background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/sofa-sorriso.jpg);
     background-size: cover;
@@ -340,6 +383,12 @@ h1.title strong {
     height: 140%;
 }
 
+.modal-body h1.title strong {
+    font-size: 24px !important;
+}
+.modal-body h1 strong {
+    color: #36445f !important;
+}
 .bg-soft {
     background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/bg-soft.JPEG);
     background-size: cover;
@@ -742,7 +791,6 @@ i.step {
     width: 40px;
     height: 40px;
     border-radius: 100px;
-    border: 1px solid black;
     font-size: 24px;
     font-family: arial;
     color: black;
@@ -804,7 +852,9 @@ h1.price {
     height: 25px;
 }
 
-
+.avaliacao .card {
+    height: auto !important;
+}
 /* index-moma */
 
 #moma p {
@@ -864,8 +914,9 @@ h1.price {
 }
 
 .accordion-header .accordion-button:not(.collapsed) {
-    color: #000;
-    background: #fff;
+    color: #3977c5;
+    background: none !important;
+    box-shadow: none;
 }
 
 
@@ -1171,8 +1222,11 @@ h1.price {
 }
 #carousel-with-text .card {
     border: 1px solid #eee !important;
+    height: auto;
 }
-
+#carousel-with-text .owl-dots {
+    margin-top: 20px;
+}
 #carousel-with-text .owl-item {
     box-shadow: 0;
     transition: 1s all;
@@ -1186,6 +1240,10 @@ h1.price {
     width: 60px;
     height: 60px;
     fill: #000;
+}
+
+#icones-box .home .svg-icon svg {
+    width: 40px;
 }
 #icones-box h3 {
     line-height: 1.2rem;
