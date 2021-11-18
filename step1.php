@@ -7,7 +7,7 @@
     <div class="container-fluid py-32 px-0">
         <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
             <div class="col-6 d-flex justify-content-around align-items-center">  
-                <a href="index.php">
+                <a href="">
                     <i class="step1 step selected d-flex justify-content-center align-items-center">
                         1
                     </i>
@@ -69,8 +69,8 @@
                             </div>
                             <div class="modal-body px-0">
                             <div class="container d-flex flex-column align-items-center justify-content-center text-center pb-32">
-                                <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração para começar</strong></h1>
-                                <h1 class="title px-5"><strong class="fw-bold">Moma</strong></h1>
+                                <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração do <strong class="fw-bold">Moma</strong> para começar</strong></h1>
+                                
                             
                             </div>
 
@@ -113,8 +113,8 @@
                             </div>
                             <div class="modal-body px-0">
                             <div class="container d-flex flex-column align-items-center justify-content-center text-center pb-32">
-                                <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração para começar</strong></h1>
-                                <h1 class="title px-5"><strong class="fw-bold">Clausi</strong></h1>
+                                <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração do <strong class="fw-bold">Clausi</strong> para começar</strong></h1>
+                                
                             </div>
 
                             <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">

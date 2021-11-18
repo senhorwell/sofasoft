@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<?php include 'price.php';?>
+<?php include 'price-last.php';?>
     <div class="container-fluid py-32 px-0">
         <div class="container py-16 d-flex justify-content-center align-items-center text-center">
             <div class="col-6 d-flex justify-content-around align-items-center">  
@@ -30,7 +30,7 @@
             <a href="step2_1.php"><h1 class="title"><strong>Experimente</strong><br> seu sofa</h1></a>
         </div>
 
-        <?php include 'configuracao.php';?>
+        <?php include 'carrossel-experimente.php';?>
 
         <div class="container d-flex justify-content-center align-items-center text-center">
             <a class="arrow-down" href="#">
@@ -60,7 +60,7 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                Meu sofá
+                Resumo do meu Sofá
             </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapsed collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">

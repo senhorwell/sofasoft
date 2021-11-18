@@ -8,7 +8,7 @@
     <div class="container px-5 py-16 text-center">
         <h1 class="title">Os sofás mais <strong>confortáveis</strong> e <strong>resistentes,</strong> personalizados por você.</h1>
     </div>
-    <?php include 'carrossel.php';?>
+    <?php include 'carrossel-sem-link.php';?>
 </div>
 
 
@@ -85,7 +85,7 @@
         <h1 class="title"><strong>Inspirações </strong>de</h1>
         <h1 class="title pl-64 pb-32">nossos clientes</h1>
     </div>
-    <?php include 'carrossel.php';?>
+    <?php include 'carrossel-sem-link.php';?>
 </div>
 
 <div class="container-fluid pb-64">
@@ -168,7 +168,6 @@
     </div>
 </div>
 
-<?php include 'detalhes.php';?>
 
 <div class="container-fluid py-32 bt-gray footer-experiment">
     <div class="container d-flex flex-column align-items-center text-center">
@@ -220,8 +219,7 @@
     </div>
 </div>
 
-<?php include 'passos.php';?>
-
+<?php include 'detalhes.php';?>
 
 <div id="propaganda-card" class="container-fluid py-32">
     <div class="container d-flex flex-wrap">

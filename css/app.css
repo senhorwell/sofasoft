@@ -13,7 +13,7 @@ strong {
 }
 
 #propaganda-card a {
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
 
 strong.normal {
@@ -190,6 +190,7 @@ h1.title strong {
     position: absolute;
     top: -3px;
     right: 0px;
+    background-repeat: no-repeat !important;
 }
 
 .owl-prev {
@@ -200,6 +201,7 @@ h1.title strong {
     position: absolute;
     top: -3px;
     left: 0px;
+    background-repeat: no-repeat !important;
 }
 
 .detalhes .owl-prev,
@@ -215,7 +217,10 @@ h1.title strong {
 /*.medidas .card .estilo {
     font-weight: 900;
 }*/
-
+.medidas .owl-nav .owl-prev,
+.medidas .owl-nav .owl-next{
+    height: 100%;
+}
 .medidas h1.title strong{
     font-weight: normal !important;
     font-family: 'Raleway' !important;
@@ -433,7 +438,9 @@ h1.title strong {
     height: 30px;
     transform: rotate(90deg);
 }
-
+.accordion-button .collapsed::after {
+    transform: rotate(-90deg);
+}
 .accordion-button:not(.collapsed)::after {
     transform: rotate(-90deg);
 }
@@ -748,7 +755,7 @@ h1.title strong {
 }
 
 #meusofa button {
-    font-size: 24px !important;
+    font-size: 21px !important;
 }
 
 #meusofa .meusofa-item {
@@ -784,9 +791,12 @@ h1.title strong {
 }
 
 .footer-experiment .svg-icon {
-    width: 50px;
+    width: 96px;
 }
 
+.footer-experiment .btn-colored {
+    width: 90%;
+}
 i.step {
     width: 40px;
     height: 40px;
@@ -795,13 +805,13 @@ i.step {
     font-family: arial;
     color: black;
     font-style: normal;
-
 }
 i.step.selected {
     width: 50px;
     height: 50px;
     background: #37455f;
     color: white;
+    border: 1px solid #37455f;
 }
 p.compre {
     color: #3c72b0;
@@ -822,11 +832,17 @@ h1.price {
     text-align: center;
 }
 
- .icon-down {
+#message .logo {
+    width: 40px;
+}
+#message .icon-down {
+    right: 16px;
+}
+.icon-down {
     width: 15px;
     height: 15px;
     position: relative;
-    top: 11px;
+    top: 8px;
     display: block;
 }
 
@@ -1214,6 +1230,11 @@ h1.price {
     background: #fff;
 }
 
+#como-funciona h1 strong {
+    font-family: 'Raleway' !important;
+    font-size: 24px;
+}
+
 #como-funciona p {
     color: #94bece;
 }
@@ -1247,6 +1268,7 @@ h1.price {
 }
 #icones-box h3 {
     line-height: 1.2rem;
+    font-size: 1rem;
 }
 
 #phone-personalize a.btn-colored {

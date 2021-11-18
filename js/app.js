@@ -11,8 +11,12 @@ $(document).ready(function() {
             $("#carousel").addClass("bg-white");
             $("#carousel-fake").addClass("show");
             $("#carousel").addClass("minify");
+            $("#collapseFormato").addClass("show");
+            $("#formato button").removeClass("collapsed")
         }
         if (top > 524 || top < 280) {
+            $("#collapseFormato").removeClass("show");
+            $("#formato button").addClass("collapsed")
             $("#carousel").removeClass("minify");
             $("#carousel").removeClass("position-fixed");
             $("#carousel").removeClass("fixed-top");
