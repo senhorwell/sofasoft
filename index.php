@@ -45,25 +45,31 @@
 </div>
 
 <div id="como-funciona" class="container-fluid bg-gray py-32">
-    <h1 class="title pb-32 text-center"><strong>Como</strong> funciona?</h1>
-    <div class="container py-32 text-center">
-        <div class="steps d-flex flex-column justify-content-center align-items-center">
-            
-        <i class="step1 step selected d-flex justify-content-center align-items-center">
+    <h2 class="title pb-32 text-center"><strong>Como</strong> funciona?</h2>
+    <div class="container py-32 d-flex justify-content-evenly align-items-center text-center">
+        <div class="col-3 steps">
+            <i class="step1 step selected d-flex justify-content-center align-items-center">
                 1
             </i>
+            <i class="step2 step selected d-flex justify-content-center align-items-center">
+                2
+            </i>
+            <i class="step3 step selected d-flex justify-content-center align-items-center">
+                3
+            </i>
+            <div class="svg-icon">
+                <?php include 'img/svg/sofa-heart.svg';?>
+            </div>
+        </div>
+        <div class="col-9">
             <h1 class="title"><strong>Escolha seu estilo</strong></h1>
             <p class="pb-32">Moma, Clausi ou Tuim</p>
 
-            <i class="step1 step selected d-flex justify-content-center align-items-center">
-                2
-            </i>
+            
             <h1 class="title"><strong>Personalize seu sofá</strong></h1>
             <p class="pb-32">Defina o formato, escolha o design e ersonalize o conforto</p>
 
-            <i class="step1 step selected d-flex justify-content-center align-items-center">
-                3
-            </i>
+            
             <h1 class="title"><strong>Experimente</strong></h1>
             <p class="p-0 m-0">Compre pelo site e experimente em casa por 10 dias</p>
             <p class="p-0 m-0">ou</p>
@@ -71,9 +77,7 @@
             <p class="p-0 m-0">Solicite amostras de tecido</p>
             <p class="pb-32">Agende uma visita na Guide Shop Londrina</p>
 
-            <div class="svg-icon">
-                <?php include 'img/svg/sofa-heart.svg';?>
-            </div>
+            
 
             <h1 class="title"><strong>Apaixone-se pelo sofá mais confortável que você já viu.</strong></h1>
         </div>
@@ -153,15 +157,15 @@
     </a>
 </div>
 
-<div id="sofa-tenis" class="container-fluid">
+<div id="sofa-tenis" class="container-fluid py-32">
     <div class="container pb-16 d-flex flex-column justify-content-end text-center">
-        <h1 class="title pb-32">Escolha <strong>do jeito que você gosta</strong></h1>
+        <h1 class="title pb-2">Escolha <strong>do jeito que você gosta</strong></h1>
         <p class="fw-bold p-0 m-0">3 tipos de assento</p>
         <a href="#">Saiba mais ></a>
     </div>
 </div>
 
-<div id="sofa-sorriso" class="container-fluid">
+<div id="sofa-sorriso" class="container-fluid py-32">
     <div class="container pb-16 d-flex flex-column justify-content-end text-center">
         <h1 class="title">Sim.</h1>
         <h1 class="title"><strong>Você pode, </strong>e deve, <strong>experimentar </strong>antes de decidir.</h1>

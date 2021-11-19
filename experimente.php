@@ -53,7 +53,7 @@
 
         <p>de <span class="money">R$ 4.529,75</span></p>
         <p class="m-0">por <strong class="money">R$ 4.029,75</strong> à vista <strong>(5% de desconto)</strong> ou</p>
-        <h1 class="text-dark fw-bold price py-32 m-0">10 X R$ 424,18</h1>
+        <h1 class="text-dark fw-bold price py-16 m-0">10 X R$ 424,18</h1>
     </div>
 
     <div class="accordion container-fluid p-0" id="meusofa">
@@ -106,7 +106,7 @@
         </div>
     </div>
 
-    <div class="container d-flex justify-content-center text-center flex-column py-32">
+    <div class="container d-flex justify-content-center text-center flex-column pt-32">
         <a href="#">Alterar seu sofá ></a>
     </div>
 

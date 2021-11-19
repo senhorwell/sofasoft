@@ -223,7 +223,7 @@
                             </h2>
                             <div id="collapseConfortoEnchimento" class="accordion-collapse collapse"
                                 aria-labelledby="headingConfortoEnchimento" data-bs-parent="#subConforto">
-                                <div class="accordion-body">
+                                <div class="accordion-body p-0">
                                     <div id="collapseConfortoEnchimento" class="accordion-collapse collapse"
                                         aria-labelledby="headingConfortoEnchimento" data-bs-parent="#subConforto">
                                         <?php include 'accordion-items.php';?>
@@ -241,7 +241,7 @@
                             </h2>
                             <div id="collapseConfortoCor" class="accordion-collapse collapse"
                                 aria-labelledby="headingConfortoCor" data-bs-parent="#subConforto">
-                                <div class="accordion-body">
+                                <div class="accordion-body p-0">
                                     <div id="collapseConfortoCor" class="accordion-collapse collapse"
                                         aria-labelledby="headingConfortoCor" data-bs-parent="#subConforto">
                                         <?php include 'accordion-items.php';?>
@@ -259,7 +259,7 @@
                             </h2>
                             <div id="collapseConfortoCarregador" class="accordion-collapse collapse"
                                 aria-labelledby="headingConfortoCarregador" data-bs-parent="#subConforto">
-                                <div class="accordion-body">
+                                <div class="accordion-body p-0">
                                     <div id="collapseConfortoCarregador" class="accordion-collapse collapse"
                                         aria-labelledby="headingConfortoCarregador" data-bs-parent="#subConforto">
                                         <?php include 'accordion-items.php';?>
@@ -295,7 +295,7 @@
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
         <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/truck.svg" />
-        <h1 class="text-dark fw-bold text-center">Frete grátis</h1>
+        <h4 class="text-dark fw-bold text-center mb-0">Frete grátis</h4>
         <p class="text-center">para diversos estados do Brasil</p>
         <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#freteModal">Saiba mais ></button>
         <div class="modal fade" id="freteModal" tabindex="-1" aria-labelledby="freteModalLabel" aria-hidden="true">
@@ -314,7 +314,7 @@
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
         <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/casa.svg" />
-        <h1 class="text-dark fw-bold text-center px-5">10 dias para experimentar</h1>
+        <h4 class="text-dark fw-bold text-center mb-0 px-5">10 dias para experimentar</h4>
         <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
         <div class="modal fade" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -332,7 +332,7 @@
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
         <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/selo.svg" />
-        <h1 class="text-dark fw-bold text-center px-5">2 anos de garantia</h1>
+        <h4 class="text-dark fw-bold text-center mb-0 px-5">2 anos de garantia</h4>
         <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#garantiaModal">Saiba mais
             ></button>
         <div class="modal fade" id="garantiaModal" tabindex="-1" aria-labelledby="garantiaModalLabel"
@@ -352,7 +352,7 @@
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
         <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/chat.svg" />
-        <h1 class="text-dark fw-bold text-center px-5">Ajuda para comprar</h1>
+        <h4 class="text-dark fw-bold text-center mb-0 px-5">Ajuda para comprar</h4>
         <p class="text-center p-0 m-0">Converse com um especialista online ou ligue para:</p>
         <a href="tel:5543991025500">(43) 9 9102-5500</a>
         <button type="button" class="pt-3 btn-link" data-bs-toggle="modal" data-bs-target="#ajudaModal">Saiba mais
@@ -378,7 +378,8 @@
         </a>
     </div>
 </div>
-<div id="duvida" class="container-fluid px-0 m-0 py-32">
+<div id="duvida" class="container-fluid px-0 m-0 py-32 text-center">
+    <h1 class="title text-light">Dúvida na cor?</h1>
 </div>
 <div id="amostras" class="container-fluid px-0 m-0 py-32">
     <div class="container d-flex justify-content-center text-center flex-column">
@@ -412,7 +413,7 @@
 
         <div class="col-6 px-3">
 
-            <p class="pt-5 fst-italic ml3">"As espumas definem o conforto e a durabilidade de um sofá"</p>
+            <p class="pt-3 fst-italic ml3">"As espumas definem o conforto e a durabilidade de um sofá"</p>
 
             <p class="p-0 m-0">Daniel N. Filho</p>
             <p class="fw-bold">Co-founder Soft</p>
