@@ -4,7 +4,7 @@ $(document).ready(function() {
     document.addEventListener('scroll', function (event) {
         let top = window.pageYOffset || document.documentElement.scrollTop;
 
-        console.log(window.pageYOffset);
+        //console.log(window.pageYOffset);
         if (top > 280) {
             $("#carousel").addClass("position-fixed");
             $("#carousel").addClass("fixed-top");
@@ -22,6 +22,40 @@ $(document).ready(function() {
             $("#carousel").removeClass("fixed-top");
             $("#carousel").removeClass("bg-white");
             $("#carousel-fake").removeClass("show");
+        }
+
+
+        /* HOME*/
+
+        if(top >= 400 && top < 1000){//moma
+
+            $("#button1").attr("href","step2.php");
+            $("#button1").text("Personalizar Moma");
+
+            $("#button2").attr("href","step2.php");
+            $("#button2").text("Personalizar Clausi");
+
+            $("#button3").attr("href","step2.php");
+            $("#button3").text("Personalizar Tuim");
+
+        }else if(top >= 1000 && top < 1620){//clausi
+            $("#button1").attr("href","step2.php");
+            $("#button1").text("Personalizar Clausi");
+
+            $("#button2").attr("href","step2.php");
+            $("#button2").text("Personalizar Moma");
+
+            $("#button3").attr("href","step2.php");
+            $("#button3").text("Personalizar Tuim");
+        }else if(top >= 1620){//tuim
+            $("#button1").attr("href","step2.php");
+            $("#button1").text("Personalizar Tuim");
+
+            $("#button2").attr("href","step2.php");
+            $("#button2").text("Personalizar Clausi");
+
+            $("#button3").attr("href","step2.php");
+            $("#button3").text("Personalizar Moma");
         }
     }, true);
 
@@ -132,7 +166,7 @@ $(document).ready(function() {
         }
     });
 
-    $("#message a").click(function(){
+    $("#message i").click(function(){
         if($('#message .dropdown-message').hasClass("h-101")){
             $('#message .dropdown-message .container').addClass("delay-rapido");
             $('#message .dropdown-message').removeClass('h-101');

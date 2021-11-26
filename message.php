@@ -8,7 +8,7 @@
                 <i class="icon-down">
                     <?php include 'img/svg/down.svg';?>
                 </i>
-                <a id="main-button" href="#" class="text-center">Personalizar Tuim</a>
+                <a id="button1" href="step2.php" class="text-center">Personalizar Tuim</a>
             </div>
         </div>
     </div>
@@ -18,7 +18,7 @@
             <div class="col-6 ese">
                 </div>
             <div class="col-6 d-flex pm justify-content-end">
-                <a href="#moma" class="text-center">Personalizar Moma</a>
+                <a id="button2" href="step2.php" class="text-center">Personalizar Moma</a>
             </div>
         </div>
     </div>
@@ -27,8 +27,7 @@
             <div class="col-6 ese">
             </div>
             <div class="col-6 d-flex pm justify-content-end">
-
-                <a href="#clausi" class="text-center">Personalizar Clausi</a>
+                <a id="button3" href="step2.php" class="text-center">Personalizar Clausi</a>
             </div>
         </div>
     </div>

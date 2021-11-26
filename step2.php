@@ -6,7 +6,7 @@
 
 <div class="container py-16 d-flex justify-content-center align-items-center text-center">
     <div class="col-6 d-flex justify-content-around align-items-center">  
-        <a href="index.php">
+        <a href="step1.php">
             <i class="step1 step d-flex justify-content-center align-items-center">
                 1
             </i>
