@@ -1,5 +1,5 @@
 <div class="accordion-body">
-    <div class="radio-group row justify-content-between px-3 text-center flex-wrap">
+    <div class="radio-group row px-3 text-center flex-wrap">
         <?php        
             for($i=0; $i < 9; $i++){
         ?>

@@ -42,6 +42,11 @@
     </div>
     
     <div class="container d-flex justify-content-center text-center flex-column">
+
+        <p>de <span class="money">R$ 4.529,75</span></p>
+        <p class="m-0">por <strong class="money">R$ 4.029,75</strong> à vista <strong>(5% de desconto)</strong> ou</p>
+        <h1 class="text-dark fw-bold price py-16 m-0">10 X R$ 424,18</h1>
+
         <a href="experimente.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
             <span class="cart-icon"></span>
             Experimentar em casa
@@ -51,9 +56,6 @@
             Compre e experimente em casa por 10 dias
         </p>
 
-        <p>de <span class="money">R$ 4.529,75</span></p>
-        <p class="m-0">por <strong class="money">R$ 4.029,75</strong> à vista <strong>(5% de desconto)</strong> ou</p>
-        <h1 class="text-dark fw-bold price py-16 m-0">10 X R$ 424,18</h1>
     </div>
 
     <div class="accordion container-fluid p-0" id="meusofa">
@@ -74,7 +76,7 @@
                         <p class="subtitle">3 assentos retráteis</p>
                     </div>
                     <div class="meusofa-item px-5 pt-4 pb-2 d-flex flex-column">
-                        <p class="title">Medida</p>
+                        <p class="title">ss</p>
                         <p class="subtitle">3,00m</p>
                     </div>
                     <div class="meusofa-item px-5 pt-4 pb-2 d-flex flex-column">
@@ -117,8 +119,8 @@
                 <div class="svg-icon">
                     <?php include 'img/svg/truck.svg';?>
                 </div>
-                <p class="fw-bold tt-t">Frete Grátis</p>
-                <p class="p-0 m-0">para diversos estados do Brasil</p>
+                <p class="fw-bold">Frete Grátis</p>
+                <p class="p-0 m-0 f-14">para diversos estados do Brasil</p>
                 <a href="#">Saiba mais ></a>
             </div>
 
@@ -127,7 +129,7 @@
                 <div class="svg-icon">
                     <?php include 'img/svg/casa.svg';?>
                 </div>
-                <p class="fw-bold tt-t">10 dias para experimentar</p>
+                <p class="fw-bold">10 dias para experimentar</p>
                 <a href="#">Saiba mais ></a>
             </div>
 
@@ -136,7 +138,7 @@
                 <div class="svg-icon">
                     <?php include 'img/svg/selo.svg';?>
                 </div>
-                <p class="fw-bold tt-t">2 anos de garantia</p>
+                <p class="fw-bold">2 anos de garantia</p>
                 <a href="#">Saiba mais ></a>
             </div>
 
@@ -145,8 +147,8 @@
                 <div class="svg-icon">
                     <?php include 'img/svg/chat.svg';?>
                 </div>
-                <p class="fw-bold tt-t">Ajuda para comprar</p>
-                <p class="p-0 m-0">Converse com uma especialista online ou ligue para: <a href="tel:43991025500">43 9 9102 5500</a></p>
+                <p class="fw-bold">Ajuda para comprar</p>
+                <p class="p-0 m-0 f-14">Converse com uma especialista online ou ligue para: <a href="tel:43991025500">43 9 9102 5500</a></p>
                 <a href="#">Saiba mais ></a>
             </div>
         </div>

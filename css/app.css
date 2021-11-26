@@ -14,6 +14,7 @@ strong {
 
 #propaganda-card a {
     font-size: 14px !important;
+    padding-bottom: 16px;
 }
 
 strong.normal {
@@ -31,8 +32,18 @@ a {
     font-size: 14px !important;
 }
 
+.f-14 {
+    font-size: 14px !important;
+}
+.pt-16 {
+    padding-top: 16px !important;
+}
+
 .pt-32 {
     padding-top: 32px !important;
+}
+.pt-64 {
+    padding-top: 64px !important;
 }
 .mt-64 {
     margin-top: 64px !important;
@@ -83,9 +94,10 @@ h2 {
 h4 {
     font-size: 16px !important;
 }
-h1 strong {
+h1 strong,
+h1.fw-bold {
     font-weight: 900 !important;
-    font-family: 'Raleway-bold';
+    font-family: 'Raleway-bold' !important;
 }
 
 h1.title,
@@ -100,6 +112,7 @@ h2.title {
 }
 #sofazinho p {
     color: #94bece;
+    font-size: 14px !important;
 }
 
 #sofazinho h1,
@@ -210,6 +223,27 @@ h2.title strong {
     background-repeat: no-repeat !important;
 }
 
+.detalhes .owl-next {
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/home/detalhes/next-inovadora.png) !important;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    background-repeat: no-repeat !important;
+}
+
+.detalhes .owl-prev {
+    background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/home/detalhes/prev-inovadora.png) !important;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    background-repeat: no-repeat !important;
+}
 .detalhes .owl-prev,
 .detalhes .owl-next {
     top:60%;
@@ -218,7 +252,7 @@ h2.title strong {
     right: 20px;
 }
 .detalhes .owl-prev {
-    left: 20px;
+    left: 40px;
 }
 /*.medidas .card .estilo {
     font-weight: 900;
@@ -342,7 +376,8 @@ h2.title strong {
     background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/sofa1.png);
     background-size: cover;
     width: 100%;
-    height: 300px;
+    height: 420px;
+    background-position-x: center;
 }
 
 .bg-consulta {
@@ -351,6 +386,11 @@ h2.title strong {
     height: 100%;
 }
 
+.bg-consulta h1,
+.bg-consulta p,
+.bg-consulta h1 strong {
+    color: #fff !important;
+}
 #nhec {
     background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/nhec.jpg);
     background-size: cover;
@@ -376,7 +416,7 @@ h2.title strong {
 #sofazinho {
     background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/sofazinho.jpg);
     background-size: cover;
-    background-position-x: center;
+    background-position-x: right;
     height: 100%;
 }
 
@@ -407,7 +447,7 @@ h2.title strong {
     height: 100%;
 }
 .bg-tuim {
-    background: #4b4b4b !important;
+    background: #7a7a7a !important;
     color: white !important;
 }
 
@@ -566,14 +606,14 @@ h2.title strong {
     #message .pm {
         width: 60%;
     }
-    #comparando h1.title strong {
+    #comparando .item h1.title strong {
         font-size: 24px !important;
         font-family: 'Raleway-bold';
         font-weight: 900;
     }
     #message a,
     #price a {
-        font-size: 12px;
+        font-size: 12px !important;
     }
     #price .cart-icon {
         width: 25px;
@@ -693,7 +733,29 @@ h2.title strong {
 #message p {
     line-height: 4rem;
 }
-
+#message .dropdown-message {
+    height: 0px;
+    transition: height 1s;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+#message .dropdown-message .container {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 4s,visibility 4s;
+}
+#message .dropdown-message .ese {
+    height: 3rem;
+}
+.delay-rapido {
+    transition: opacity 0.5s,visibility 0.5s !important;
+}
+#message .dropdown-message .container.visible {
+    opacity: 1;
+}
+.h-101{
+    height: 110px !important;
+}
 #message {
     border-bottom: 1px solid #ccc;
     z-index: 10000;
@@ -752,7 +814,8 @@ h2.title strong {
 #costurando {
     background: url(https://www.fronte.net.br/clientes/sofasoft/img/img/costura.png);
     background-size: cover;
-    height: 492px;
+    height: 100%;
+    background-position-x: right;
 }
 
 .ml3 {
@@ -785,10 +848,16 @@ h2.title strong {
     width: 50px;
     height: 50px;
     padding: 0px !important;
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
 
 #propaganda-card .fw-bold {
     margin: 0px !important;
+    font-weight: 900 !important;
+    font-family: 'Raleway-bold';
+    color: black;
 }
 
 .footer-experiment {
@@ -798,8 +867,12 @@ h2.title strong {
 
 .footer-experiment .svg-icon {
     width: 96px;
+    height: 96px;
 }
-
+.footer-experiment .svg-icon svg{
+    width: 100%;
+    height: 100%;
+}
 .footer-experiment .btn-colored {
     width: 90%;
 }
@@ -879,7 +952,14 @@ h1.price {
 }
 
 .avaliacao .card {
-    height: auto !important;
+    height: 250px;
+}
+.avaliacao .card p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 /* index-moma */
 
@@ -899,10 +979,11 @@ h1.price {
 
 /* Clausi */
 
-#Clausi h1 {
+#Clausi h1,
+#tuim h1 {
     font-weight: bold;
+    font-family: 'Raleway-bold';
 }
-
 #Clausi p {
     color: #2c2e35;
     font-size: 18px;
@@ -1227,6 +1308,7 @@ h1.price {
 
 .svg-icon svg {
     fill: #000 !important;
+    height: 100%;
 }
 
 .tt-t {
@@ -1254,20 +1336,19 @@ h1.price {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 670px;
+    height: 551px;
     background: url(https://www.fronte.net.br/clientes/sofasoft/img/svg/traco-como-funciona.svg) !important;
-    background-size: 300px 500px;
-    background-position-x: center;
-    background-position-y: center;
+    background-position-x: center !important;
+    background-repeat: no-repeat !important;
 }
 #como-funciona .steps i.step2{
-    margin-bottom: 120px;
+    margin-bottom: 70px;
 }
 #como-funciona .steps i.step3{
-    margin-bottom: 170px;
+    margin-bottom: 210px;
 }
 #como-funciona .steps i {
-    margin-bottom: 70px;
+    margin-bottom:60px;
 }
 #carousel-with-text .card {
     border: 1px solid #eee !important;

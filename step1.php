@@ -47,19 +47,7 @@
             <h1>Moma</h1>
             <p>Para quem ama design e não abre mão do conforto.</p>
             <div class="container d-flex justify-content-center">
-            <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#freteModal">Saiba mais ></button>
-            <div class="modal fade pt-32 mt-5" id="freteModal" tabindex="-1" aria-labelledby="freteModalLabel" aria-hidden="true">
-                <div class="modal-dialog mx-0 px-0">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body px-0">
-                            <h1 class="text-dark"><strong>Informações sobre Moma</strong></h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <button type="button" class="btn-link b1"><a href="saiba-mais-page.php" class="btn-link">Saiba Mais ></a></button>
                 <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Personalizar ></button>
                 <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
                     <div class="modal-dialog mx-0 px-0">
@@ -91,19 +79,7 @@
             <h1>Clausi</h1>
             <p>Para os minimalistas de plantão.</p>
             <div class="container d-flex justify-content-center">
-            <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#freteModal">Saiba mais ></button>
-            <div class="modal fade pt-32 mt-5" id="freteModal" tabindex="-1" aria-labelledby="freteModalLabel" aria-hidden="true">
-                <div class="modal-dialog mx-0 px-0">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body px-0">
-                            <h1 class="text-dark"><strong>Informações sobre Clausi</strong></h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <button type="button" class="btn-link b1"><a href="saiba-mais-page.php" class="btn-link">Saiba Mais ></a></button>
                 <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Personalizar ></button>
                 <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
                     <div class="modal-dialog mx-0 px-0">
@@ -134,20 +110,8 @@
             <h1>Tuim</h1>
             <p>O clássico amigão do Netflix</p>
             <div class="container d-flex justify-content-center">
-            <button type="button" class="btn-link" data-bs-toggle="modal" data-bs-target="#freteModal">Saiba mais ></button>
-            <div class="modal fade pt-32 mt-5" id="freteModal" tabindex="-1" aria-labelledby="freteModalLabel" aria-hidden="true">
-                <div class="modal-dialog mx-0 px-0">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body px-0">
-                            <h1 class="text-dark"><strong>Informações sobre Tuim</strong></h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Personalizar ></button>
+            <button type="button" class="btn-link b1"><a href="saiba-mais-page.php" class="btn-link">Saiba Mais ></a></button>
+                <button type="button" class="btn-link px-2 b1" data-bs-toggle="modal" data-bs-target="#tryModal">Personalizar ></button>
                 <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
                     <div class="modal-dialog mx-0 px-0">
                         <div class="modal-content">

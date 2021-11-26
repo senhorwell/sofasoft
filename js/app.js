@@ -36,7 +36,7 @@ $(document).ready(function() {
         items: 1,
         margin: 10,
         nav: false,
-        dots: true,
+        dots: false,
         responsive: {
             0: {
                 margin:10,
@@ -132,7 +132,17 @@ $(document).ready(function() {
         }
     });
 
-    
+    $("#message a").click(function(){
+        if($('#message .dropdown-message').hasClass("h-101")){
+            $('#message .dropdown-message .container').addClass("delay-rapido");
+            $('#message .dropdown-message').removeClass('h-101');
+            $('#message .dropdown-message .container').removeClass("visible");
+        }else{
+            $('#message .dropdown-message .container').removeClass("delay-rapido");
+            $('#message .dropdown-message').addClass('h-101');
+            $('#message .dropdown-message .container').addClass("visible");
+        }
+    });
 
     function rgt() {
         $('#costurando').animate({ left: "500" }, 10000, hider);

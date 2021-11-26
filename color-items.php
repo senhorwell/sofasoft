@@ -1,5 +1,5 @@
 <div id="colors" class="accordion-body">
-    <div class="radio-group row justify-content-between px-3 text-center flex-wrap">
+    <div class="radio-group row px-3 text-center flex-wrap">
         <div class="col-3 card-block mx-1 py-0 text-center radio d-flex justify-content-center align-items-center">
             <div class="flex-row">
                 <div class="col">

@@ -277,14 +277,9 @@
 
 
 <div class="container-fluid px-0 m-0 py-32 bg-gray">
-    <div class="container d-flex justify-content-center text-center">
-        <a href="experimente.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
-            <span class="cart-icon"></span>
-            Experimentar
-        </a>
-    </div>
+    
 
-    <div class="container d-flex justify-content-center text-center py-32 flex-column px-3">
+    <div class="container d-flex justify-content-center text-center pt-32 flex-column px-3">
         <p class="text-center">de <span class="money">R$4.529,75</span></p>
         <p class="text-center">por <strong class="money">R$ 4.029,75</strong> à vista <strong>(5% de desconto)</strong> ou</p>
     </div>
@@ -292,6 +287,12 @@
         <h1 class="text-dark title text-center fw-bold">10X R$ 424,18</h1>
     </div>
 
+    <div class="container d-flex justify-content-center text-center px-4 pb-32">
+        <a href="experimente.php" class="btn-colored w-100 fs-light d-flex justify-content-evenly align-items-center">
+            <span class="cart-icon"></span>
+            Experimentar
+        </a>
+    </div>
 
     <div class="container d-flex justify-content-center align-items-center text-center pb-32 flex-column px-3">
         <img style="width:50px" src="https://www.fronte.net.br/clientes/sofasoft/img/svg/truck.svg" />
@@ -371,8 +372,8 @@
         </div>
     </div>
 
-    <div class="container d-flex justify-content-center text-center">
-        <a href="experimente.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
+    <div class="container d-flex justify-content-center text-center px-4">
+        <a href="experimente.php" class="btn-colored w-100 fs-light d-flex justify-content-evenly align-items-center">
             <span class="cart-icon"></span>
             Experimentar
         </a>
@@ -388,66 +389,4 @@
     </div>
 </div>
 
-<div class="container-fluid px-0 m-0 bg-sofa">
-    <h4 class="text-light text-center pt-5">Lindo ao olhar, magnífico para usar.</h4>
-</div>
-<div class="container-fluid px-0 m-0 bg-sofa">
-    <h4 class="text-light text-center pt-5">Na medida para o seu conforto.</h4>
-    <h4 class="text-light text-center">Apoio da cabeça aos pés.</h4>
-</div>
-<div class="container-fluid px-0 m-0 bg-sofa">
-    <h4 class="text-light text-center pt-5 px-3">Sentar, ler, comer, deitar, maratonar encosto ajustável com 7 posições e almofadas soltas.</h4>
-</div>
-<div class="container-fluid px-0 m-0 bg-sofa">
-    <h4 class="text-light text-center pt-5">Cantos ou retos, compactos ou grandões</h4>
-</div>
-<div class="container-fluid px-0 m-0 bg-sofa">
-    <h4 class="text-light text-center pt-5">Clique para abrir e fechar não precisa se levantar.</h4>
-    <h4 class="text-light text-center">(opção manual também disponível)</h4>
-
-</div>
-
-<div id="medindo" class="container-fluid px-0 m-0 py-32">
-    <div class="container d-flex justify-content-center text-start flex-column">
-        <h1 class="title px-3"><strong>O dobro de espuma</strong><br> dos sofás<br> tradicionais</h1>
-
-        <div class="col-6 px-3">
-
-            <p class="pt-3 fst-italic ml3">"As espumas definem o conforto e a durabilidade de um sofá"</p>
-
-            <p class="p-0 m-0">Daniel N. Filho</p>
-            <p class="fw-bold">Co-founder Soft</p>
-        </div>
-    </div>
-</div>
-
-<div id="costurando" class="container-fluid px-0 m-0 py-32">
-    <div class="container d-flex justify-content-end text-end flex-column">
-        <h1 class="text-light px-3">Suporta<br> pessoas de</h1>
-        <h1 class="px-3 title fw-bold"><strong>145kg</strong><br></h1>
-        <div class="box b col-7 offset-5 pt-5" data-aos="flip-down">
-            <p class="pt-5 text-light">Aprovado em laboratório de qualidade especializado, e testes de <strong>10
-                    mil</strong> ciclos.</p>
-            <p class="text-light p-0 m-0"><strong>9 anos</strong> sentando-se</p>
-            <p class="fw-bold text-light">3 vezes ao dia</p>
-        </div>
-    </div>
-</div>
-
-<?php include 'avaliacao.php';?>
-
-<div class="container-fluid px-0 m-0 py-32">
-    <div class="container d-flex justify-content-center text-center">
-        <h1 class="title"><strong>Inspirações</strong> do MOMA</h1>
-    </div>
-    <?php include 'configuracao.php';?>
-</div>
-
-
-<?php include 'perguntas.php';?>
-
-<script src="js/aos.js"></script>
-<script src="js/visibility.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-<?php include 'footer.php';?>
+<?php include 'saiba-mais';?>
