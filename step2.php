@@ -51,7 +51,7 @@
     <div class="accordion" id="accordionParent">
         <div class="accordion-item">
             <h2 class="accordion-header" id="formato">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseFormato" aria-expanded="true" aria-controls="collapseFormato">
                     Defina o formato
                 </button>
@@ -62,10 +62,12 @@
                     <div class="accordion" id="subFormato">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFormatoFormato">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed d-flex flex-column align-items-start" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFormatoFormato" aria-expanded="true"
                                     aria-controls="collapseFormatoFormato">
-                                    Formato
+                                    
+                                    <p class="title p-0 m-0">Formato</p>
+                                    <p class="subtitle p-0 m-0">3 assentos retrateis</p>
                                 </button>
                             </h2>
                             <div id="collapseFormatoFormato" class="accordion-collapse collapse show"
@@ -75,15 +77,17 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFormatoMedida">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed d-flex flex-column align-items-start" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFormatoMedida" aria-expanded="false"
                                     aria-controls="collapseFormatoMedida">
-                                    Medida
+                                    
+                                    <p class="title p-0 m-0">Medida</p>
+                                    <p class="subtitle p-0 m-0">3 assentos retrateis</p>
                                 </button>
                             </h2>
                             <div id="collapseFormatoMedida" class="accordion-collapse collapse"
                                 aria-labelledby="headingFormatoMedida" data-bs-parent="#subFormato">
-                                <div class="accordion-body">
+                                <div class="accordion-body p-0">
                                     <ul class="w-100 p-0 m-0 radio-group">
                                     <?php        
                                         for($i=0; $i < 9; $i++){
@@ -104,15 +108,17 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFormatoBraco">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed d-flex flex-column align-items-start" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFormatoBraco" aria-expanded="false"
                                     aria-controls="collapseFormatoBraco">
-                                    Braço
+                                    
+                                    <p class="title p-0 m-0">Braço</p>
+                                    <p class="subtitle p-0 m-0">3 assentos retrateis</p>
                                 </button>
                             </h2>
                             <div id="collapseFormatoBraco" class="accordion-collapse collapse"
                                 aria-labelledby="headingFormatoBraco" data-bs-parent="#subFormato">
-                                <div class="accordion-body">
+                                <div class="accordion-body p-0">
                                     <ul class="w-100 p-0 m-0 radio-group">
                                     <?php        
                                         for($i=0; $i < 9; $i++){
@@ -140,7 +146,7 @@
     <div class="accordion" id="accordionParent2">
         <div class="accordion-item">
             <h2 class="accordion-header" id="design">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseDesign" aria-expanded="true" aria-controls="collapseDesign">
                     Escolha o design
                 </button>
@@ -151,10 +157,12 @@
                     <div class="accordion" id="subDesign">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingDesignTecido">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed d-flex flex-column align-items-start" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseDesignTecido" aria-expanded="false"
                                     aria-controls="collapseDesignTecido">
-                                    Tecido
+                                    
+                                    <p class="title p-0 m-0">Tecido</p>
+                                    <p class="subtitle p-0 m-0">3 assentos retrateis</p>
                                 </button>
                             </h2>
                             <div id="collapseDesignTecido" class="accordion-collapse collapse"
@@ -164,15 +172,17 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingDesignCor">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed d-flex flex-column align-items-start" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseDesignCor" aria-expanded="false"
                                     aria-controls="collapseDesignCor">
-                                    Cor
+                                    
+                                    <p class="title p-0 m-0">Cor</p>
+                                    <p class="subtitle p-0 m-0">3 assentos retrateis</p>
                                 </button>
                             </h2>
                             <div id="collapseDesignCor" class="accordion-collapse collapse"
                                 aria-labelledby="headingFormatoCor" data-bs-parent="#subFormato">
-                                <div class="accordion-body radio-group d-flex flex-wrap">
+                                <div class="accordion-body p-0 radio-group d-flex flex-wrap">
                                     <!-- <?php include 'color-items.php';?> -->
                                     <?php        
                                         for($i=0; $i < 8; $i++){
@@ -204,7 +214,7 @@
     <div class="accordion" id="accordionParent3">
         <div class="accordion-item">
             <h2 class="accordion-header" id="conforto">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseConforto" aria-expanded="true" aria-controls="collapseConforto">
                     Personalize o conforto
                 </button>
@@ -215,10 +225,12 @@
                     <div class="accordion" id="subConforto">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingConfortoEnchimento">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed d-flex flex-column align-items-start" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseConfortoEnchimento" aria-expanded="false"
                                     aria-controls="collapseConfortoEnchimento">
-                                    Enchimento assentos
+                                    
+                                    <p class="title p-0 m-0">Enchimento assentos</p>
+                                    <p class="subtitle p-0 m-0">3 assentos retrateis</p>
                                 </button>
                             </h2>
                             <div id="collapseConfortoEnchimento" class="accordion-collapse collapse"
@@ -233,10 +245,12 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingConfortoCor">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed d-flex flex-column align-items-start" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseConfortoCor" aria-expanded="false"
                                     aria-controls="collapseConfortoCor">
-                                    Abertura assentos
+                                    
+                                    <p class="title p-0 m-0">Abertura assentos</p>
+                                    <p class="subtitle p-0 m-0">3 assentos retrateis</p>
                                 </button>
                             </h2>
                             <div id="collapseConfortoCor" class="accordion-collapse collapse"
@@ -251,10 +265,12 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingConfortoCarregador">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed d-flex flex-column align-items-start" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseConfortoCarregador" aria-expanded="false"
                                     aria-controls="collapseConfortoCarregador">
-                                    Carregador USB
+                                    
+                                    <p class="title p-0 m-0">Carregador USB</p>
+                                    <p class="subtitle p-0 m-0">3 assentos retrateis</p>
                                 </button>
                             </h2>
                             <div id="collapseConfortoCarregador" class="accordion-collapse collapse"

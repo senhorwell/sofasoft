@@ -11,19 +11,25 @@ $(document).ready(function() {
             $("#carousel").addClass("bg-white");
             $("#carousel-fake").addClass("show");
             $("#carousel").addClass("minify");
-            $("#collapseFormato").addClass("show");
-            $("#formato button").removeClass("collapsed")
+            if(!$("#collapseFormato").hasClass("clicked")){
+                $("#collapseFormato").addClass("clicked");
+                $("#accordionParent .accordion-button").trigger("click");
+                $("#collapseFormato .accordion-button").trigger("click");
+            }
         }
-        if (top > 524 || top < 280) {
-            $("#collapseFormato").removeClass("show");
-            $("#formato button").addClass("collapsed")
+        if (top < 280 || top > 524) {
             $("#carousel").removeClass("minify");
             $("#carousel").removeClass("position-fixed");
             $("#carousel").removeClass("fixed-top");
             $("#carousel").removeClass("bg-white");
             $("#carousel-fake").removeClass("show");
+            if($("#collapseFormato").hasClass("clicked")){
+                $("#collapseFormato").removeClass("clicked");
+                $("#accordionParent .accordion-button").trigger("click");
+                $("#collapseFormato .accordion-button").trigger("click");
+            }
         }
-
+        $experimente.trigger('refresh.owl.carousel');
 
         /* HOME*/
 
@@ -64,9 +70,13 @@ $(document).ready(function() {
         'wrapAround': true
     });
     
+    $("#saiba-mais-button").click(function(){
+        $("saiba-mais-modal").modal("show");
+    });
     $('.avaliacao.owl-carousel').owlCarousel({
         loop: true,
         center: true,
+        autoHeight:true,
         items: 1,
         margin: 10,
         nav: false,
@@ -121,17 +131,21 @@ $(document).ready(function() {
             }
         }
     });
-    
-    $('.experimente.owl-carousel').owlCarousel({
+
+    var $experimente = $('.experimente.owl-carousel').owlCarousel({
         loop: true,
         center: true,
-        items: 1,
+        items: 2,
         margin: 10,
         nav: false,
+        autoplay: true,
         dots: true,
         responsive: {
             0: {
                 margin:10,
+                loop:true,
+                autoWidth:true,
+                items: 3
             },
             900: {
                 items: 3
@@ -142,6 +156,7 @@ $(document).ready(function() {
         }
     });
 
+    
 
     $('.owl-carousel').owlCarousel({
         loop: true,

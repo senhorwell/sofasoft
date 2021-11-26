@@ -36,7 +36,7 @@
         <h1 class="text-light px-3">Suporta<br> pessoas de</h1>
         <h1 class="px-3 title fw-bold"><strong>145kg</strong><br></h1>
         <div class="box b col-7 offset-5 pt-64" data-aos="flip-down">
-            <p class="pt-64 text-light">Aprovado em laboratório de qualidade especializado, e testes de <strong>10
+            <p class="pt-64 text-light">Aprovado em laboratório de qualidade especializado, em testes de <strong>10
                     mil</strong> ciclos.</p>
             <p class="text-light p-0 m-0"><strong>9 anos</strong> sentando-se</p>
             <p class="fw-bold text-light">3 vezes ao dia</p>

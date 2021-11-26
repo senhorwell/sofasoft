@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 <?php include 'price-last.php';?>
-    <div class="container-fluid py-32 px-0">
+    <div class="container-fluid pt-32 px-0">
         <div class="container py-16 d-flex justify-content-center align-items-center text-center">
             <div class="col-6 d-flex justify-content-around align-items-center">  
                 <a href="step1.php">
@@ -31,14 +31,6 @@
         </div>
 
         <?php include 'carrossel-experimente.php';?>
-
-        <div class="container d-flex justify-content-center align-items-center text-center">
-            <a class="arrow-down" href="#">
-                <i class="icon-down">
-                    <?php include 'img/svg/down.svg';?>
-                </i>    
-            </a>
-        </div>
     </div>
     
     <div class="container d-flex justify-content-center text-center flex-column">
@@ -112,6 +104,8 @@
         <a href="#">Alterar seu sofá ></a>
     </div>
 
+    <?php include 'avaliacao.php';?>
+
     <div id="propaganda-card" class="container-fluid py-32">
         <div class="container d-flex flex-wrap">
             <div class="col-6 p-0 m-0 d-flex text-center flex-column align-items-center ">
@@ -149,7 +143,7 @@
                 </div>
                 <p class="fw-bold">Ajuda para comprar</p>
                 <p class="p-0 m-0 f-14">Converse com uma especialista online ou ligue para: <a href="tel:43991025500">43 9 9102 5500</a></p>
-                <a href="#">Saiba mais ></a>
+                <a href="#">Falar no chat ></a>
             </div>
         </div>
     </div>
@@ -172,7 +166,7 @@
                 <?php include 'img/svg/pcchat.svg';?>
             </div>
             <p>Se preferir, tire suas dúvidas em uma experiência online, e receba ótimas dicas de decoração das Consultoras de Design ;)</p>
-            <a href="#">Agendar demosntração online ></a>
+            <a href="#">Agendar demonstração online ></a>
         </div>
     </div>
     

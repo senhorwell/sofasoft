@@ -1,4 +1,4 @@
-<div class="accordion-body">
+<div class="accordion-body p-0">
     <div class="radio-group row px-3 text-center flex-wrap">
         <?php        
             for($i=0; $i < 9; $i++){

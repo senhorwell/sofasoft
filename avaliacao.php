@@ -383,6 +383,6 @@
     </div>
 
     <a href="experimente.php" class="btn-colored mx-3 mt-64 fs-light d-flex justify-content-around align-items-center">
-        Escolher meu estilo
+        Experimentar
     </a>
 </div>

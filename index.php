@@ -8,7 +8,7 @@
     <div class="container px-5 py-16 text-center">
         <h1 class="title">Os sofás mais <strong>confortáveis</strong> e <strong>resistentes,</strong> personalizados por você.</h1>
     </div>
-    <?php include 'carrossel-sem-link.php';?>
+    <?php include 'carrossel-sem-link-top-index.php';?>
 </div>
 
 
@@ -46,38 +46,51 @@
 
 <div id="como-funciona" class="container-fluid bg-gray py-32">
     <h1 class="title pb-32 text-center"><strong>Como</strong> funciona?</h1>
-    <div class="container pt-32 d-flex justify-content-evenly">
-        <div class="col-3 steps text-center">
-            <i class="step1 step selected d-flex justify-content-center align-items-center">
-                1
-            </i>
-            <i class="step2 step selected d-flex justify-content-center align-items-center">
-                2
-            </i>
-            <i class="step3 step selected d-flex justify-content-center align-items-center">
-                3
-            </i>
-            <div class="svg-icon">
-                <?php include 'img/svg/sofa-heart.svg';?>
+    <div class="container py-32 d-flex flex-column justify-content-evenly">
+        <div class="col-12 steps d-flex justify-content-around align-items-start">
+            <div class="col-3">
+                <i class="step1 step selected d-flex justify-content-center align-items-center">
+                    1
+                </i>
+            </div>
+            <div class="col-9">
+                <h2 class="title"><strong>Escolha seu estilo</strong></h2>
+                <p class="pb-32">Moma, Clausi ou Tuim</p>
             </div>
         </div>
-        <div class="col-9">
-            <h2 class="title"><strong>Escolha seu estilo</strong></h2>
-            <p class="pb-32">Moma, Clausi ou Tuim</p>
-
-            
-            <h2 class="title"><strong>Personalize seu sofá</strong></h2>
-            <p class="pb-32">Defina o formato, escolha o design e ersonalize o conforto</p>
-
-            
-            <h2 class="title"><strong>Experimente</strong></h2>
-            <p class="pb-2 p-0 m-0">Compre pelo site e experimente em casa por 10 dias</p>
-            <p class="pb-2 p-0 m-0">Agende uma demonstração online Solicite amostras de tecido.</p>
-            <p class="pb-32">Agende uma visita na Guide Shop Londrina</p>
-
-            
-
-            <h2 class="title"><strong>Apaixone-se pelo sofá mais confortável que você já viu.</strong></h2>
+        <div class="col-12 steps d-flex justify-content-around align-items-start">
+            <div class="col-3">
+                <i class="step2 step selected d-flex justify-content-center align-items-center">
+                    2
+                </i>
+            </div>
+            <div class="col-9">
+                <h2 class="title"><strong>Personalize seu sofá</strong></h2>
+                <p class="pb-32">Defina o formato, escolha o design e ersonalize o conforto</p>
+            </div>
+        </div>
+        <div class="col-12 steps d-flex justify-content-around align-items-start">
+            <div class="col-3">
+                <i class="step3 step selected d-flex justify-content-center align-items-center">
+                    3
+                </i>
+            </div>
+            <div class="col-9">
+                <h2 class="title"><strong>Experimente</strong></h2>
+                <p class="pb-2 p-0 m-0">Compre pelo site e experimente em casa por 10 dias</p>
+                <p class="pb-2 p-0 m-0">Agende uma demonstração online Solicite amostras de tecido.</p>
+                <p class="pb-32">Agende uma visita na Guide Shop Londrina</p>
+            </div>
+        </div>
+        <div class="col-12 d-flex justify-content-between align-items-start">
+            <div class="col-3 position-relative">
+                <div class="svg-icon p-0 m-0">
+                    <?php include 'img/svg/sofa-heart.svg';?>
+                </div>
+            </div>
+            <div class="col-9">
+                <h2 class="title"><strong>Apaixone-se pelo sofá mais confortável que você já viu.</strong></h2>
+            </div>
         </div>
     </div>
 </div>
@@ -168,7 +181,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid pb-64">
     <div class="container pb-16">
         <a href="step1.php" class="mx-3 btn-colored fs-light d-flex justify-content-around align-items-center">
             Escolher meu estilo
@@ -194,7 +207,7 @@
         <?php include 'img/svg/pcchat.svg';?>
         </div>
         <p class="fw-bold">Experimente online com praticidade e tecnologia</p>
-        <a href="#">Agendar demosntração online ></a>
+        <a href="#">Agendar demonstração online ></a>
     </div>
 </div>
 
