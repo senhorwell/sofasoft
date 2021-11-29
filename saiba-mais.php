@@ -43,9 +43,12 @@
         </div>
     </div>
 </div>
-
-<?php include 'avaliacao.php';?>
-
+<div class="container-fluid bg-gray py-32 px-0 mx-0">
+    <?php include 'avaliacao.php';?>
+    <a href="step2.php" class="btn-colored mx-3 mt-64 fs-light d-flex justify-content-around align-items-center">
+        Personalizar Moma
+    </a>
+</div>
 <div class="container-fluid px-0 m-0 py-32">
     <div class="container d-flex justify-content-center text-center">
         <h1 class="title pb-64"><strong>Inspirações</strong> do MOMA</h1>

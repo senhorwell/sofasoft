@@ -112,7 +112,13 @@
     </div>
 </div>
 
-<?php include 'avaliacao.php';?>
+<div class="container-fluid bg-gray py-32 px-0 mx-0">
+    <?php include 'avaliacao.php';?>
+    <a href="experimente.php" class="btn-colored mx-3 mt-64 fs-light d-flex justify-content-around align-items-center">
+        Experimentar
+    </a>
+</div>
+
 <?php include 'carousel_with_text.php';?>
 
 <div id="nhec" class="container-fluid">

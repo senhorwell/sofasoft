@@ -104,7 +104,9 @@
         <a href="#">Alterar seu sofá ></a>
     </div>
 
-    <?php include 'avaliacao.php';?>
+    <div class="container-fluid bg-gray py-32 px-0 mx-0">
+        <?php include 'avaliacao.php';?>
+    </div>
 
     <div id="propaganda-card" class="container-fluid py-32">
         <div class="container d-flex flex-wrap">

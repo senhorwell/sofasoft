@@ -50,5 +50,7 @@
         </div>
     </div>
 
-    <a href="#">Personalizar Moma ></a>
+    <a href="step2.php" class="btn-colored mx-3 mt-64 fs-light d-flex justify-content-around align-items-center">
+        Personalizar Moma
+    </a>
 </div>
