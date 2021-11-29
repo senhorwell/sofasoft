@@ -801,6 +801,7 @@ h2.title strong {
 }
 
 .btn-link {
+    font-size: 14px;
     border: none;
     background: none;
     color: #3a72a5;
@@ -858,8 +859,8 @@ p.subtitle {
 }
 
 #propaganda-card .svg-icon {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     padding: 0px !important;
     display: flex;
     align-items: end;
@@ -879,8 +880,8 @@ p.subtitle {
 }
 
 .footer-experiment .svg-icon {
-    width: 96px;
-    height: 96px;
+    width: 130px;
+    height: 130px;
 }
 .footer-experiment .svg-icon svg{
     width: 100%;

@@ -20,21 +20,63 @@
             </div>
             <h3 class="fw-bold">Frete Grátis</h3>
             <p class="f-14">para diversos estados do Brasil</p>
-            <a href="#">Saiba mais ></a>
+            <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+            <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+                <div class="modal-dialog mx-0 px-0">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body px-0">
+                            <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-3 d-flex flex-column align-items-center text-center">
             <div class="svg-icon text-center">
                 <?php include 'img/svg/casa.svg';?>
             </div>
             <h3 class="fw-bold">10 dias para experimentar</h3>
-            <a href="#">Saiba mais ></a>
+            <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+            <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+                <div class="modal-dialog mx-0 px-0">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body px-0">
+                            <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-3 d-flex flex-column align-items-center text-center">
             <div class="svg-icon text-center">
                 <?php include 'img/svg/selo.svg';?>
             </div>
             <h3 class="fw-bold">2 anos de garantia</h3>
-            <a href="#">Saiba mais ></a>
+            <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+            <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+                <div class="modal-dialog mx-0 px-0">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body px-0">
+                            <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-12 py-32">
             <a href="step1.php" class="btn-colored fs-light d-flex justify-content-around align-items-center">
@@ -175,7 +217,21 @@
     <div class="container pb-16 d-flex flex-column justify-content-end text-center">
         <h1 class="title pb-2">Escolha <strong>do jeito que você gosta</strong></h1>
         <p class="fw-bold p-0 m-0">3 tipos de assento</p>
-        <a href="#">Saiba mais ></a>
+        <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+        <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+            <div class="modal-dialog mx-0 px-0">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body px-0">
+                        <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                            <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -202,7 +258,21 @@
             <?php include 'img/svg/casa.svg';?>
         </div>
         <p class="fw-bold">Experimente em sua casa por 10 dias</p>
-        <a href="#">Saiba mais ></a>
+        <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+        <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+            <div class="modal-dialog mx-0 px-0">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body px-0">
+                        <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                            <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -256,7 +326,21 @@
             </div>
             <p class="fw-bold">Frete Grátis</p>
             <p class="p-0 m-0 f-14">para diversos estados do Brasil</p>
-            <a href="#">Saiba mais ></a>
+            <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+            <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+                <div class="modal-dialog mx-0 px-0">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body px-0">
+                            <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="col-4 p-0 m-0 d-flex text-center flex-column align-items-center">
@@ -265,7 +349,21 @@
                 <?php include 'img/svg/casa.svg';?>
             </div>
             <p class="fw-bold">10 dias para experimentar</p>
-            <a href="#">Saiba mais ></a>
+            <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+            <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+                <div class="modal-dialog mx-0 px-0">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body px-0">
+                            <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="col-4 p-0 m-0 d-flex text-center flex-column align-items-center">
@@ -274,7 +372,21 @@
                 <?php include 'img/svg/selo.svg';?>
             </div>
             <p class="fw-bold">2 anos de garantia</p>
-            <a href="#">Saiba mais ></a>
+            <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+            <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+                <div class="modal-dialog mx-0 px-0">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body px-0">
+                            <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container">

@@ -117,7 +117,21 @@
                 </div>
                 <p class="fw-bold">Frete Grátis</p>
                 <p class="p-0 m-0 f-14">para diversos estados do Brasil</p>
-                <a href="#">Saiba mais ></a>
+                <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+                <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+                    <div class="modal-dialog mx-0 px-0">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body px-0">
+                                <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                    <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="col-6 p-0 m-0 d-flex text-center flex-column align-items-center">
@@ -126,7 +140,21 @@
                     <?php include 'img/svg/casa.svg';?>
                 </div>
                 <p class="fw-bold">10 dias para experimentar</p>
-                <a href="#">Saiba mais ></a>
+                <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+                <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+                    <div class="modal-dialog mx-0 px-0">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body px-0">
+                                <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                    <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="col-6 p-0 m-0 d-flex text-center flex-column align-items-center">
@@ -135,7 +163,21 @@
                     <?php include 'img/svg/selo.svg';?>
                 </div>
                 <p class="fw-bold">2 anos de garantia</p>
-                <a href="#">Saiba mais ></a>
+                <button type="button" class="btn-link px-2" data-bs-toggle="modal" data-bs-target="#tryModal">Saiba mais ></button>
+                <div class="modal fade pt-32 mt-5" id="tryModal" tabindex="-1" aria-labelledby="tryModalLabel" aria-hidden="true">
+                    <div class="modal-dialog mx-0 px-0">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body px-0">
+                                <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                    <h1 class="title">Informações do seu<br><strong> Saiba Mais</strong></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="col-6 p-0 m-0 d-flex text-center flex-column align-items-center">

@@ -56,15 +56,12 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body px-0">
-                            <div class="container d-flex flex-column align-items-center justify-content-center text-center pb-32">
-                                <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração do <strong class="fw-bold">Moma</strong> para começar</strong></h1>
-                                
-                            
-                            </div>
-
-                            <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
-                                <?php include 'carrossel.php';?>
-                            </div>
+                                <div class="container d-flex flex-column align-items-center justify-content-center text-center pb-32">
+                                    <h1 class="title px-5 text-dark"><strong class="normal">Selecione uma configuração do <strong class="fw-bold">Moma</strong> para começar</strong></h1>
+                                </div>
+                                <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                    <?php include 'carrossel.php';?>
+                                </div>
                             </div>
                         </div>
                     </div>
