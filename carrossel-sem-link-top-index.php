@@ -39,15 +39,6 @@
         <a href="step2.php">
             <div class="card">
                 <a class="card-img-top">
-                    <img class="card-img-top" src="https://www.fronte.net.br/clientes/sofasoft/img/img/tophome/4.jpg" alt="Sofa incrivel">
-                </a>
-            </div>
-        </a>
-    </div>
-    <div class="item d-flex justify-content-center align-items-center">
-        <a href="step2.php">
-            <div class="card">
-                <a class="card-img-top">
                     <img class="card-img-top" src="https://www.fronte.net.br/clientes/sofasoft/img/img/tophome/5.jpg" alt="Sofa incrivel">
                 </a>
             </div>
