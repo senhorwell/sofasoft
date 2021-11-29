@@ -141,7 +141,7 @@ $(document).ready(function() {
         margin: 10,
         nav: false,
         autoplay: true,
-        dots: true,
+        dots: false,
         responsive: {
             0: {
                 margin:10,
@@ -166,7 +166,7 @@ $(document).ready(function() {
         items: 1,
         margin: 10,
         nav: false,
-        dots: true,
+        dots: false,
         responsive: {
             0: {
                 margin:10,
