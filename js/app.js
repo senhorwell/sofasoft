@@ -1,5 +1,7 @@
 
-
+if (typeof browser === "undefined") {
+    var browser = chrome;
+}
 $(document).ready(function() {
     document.addEventListener('scroll', function (event) {
         let top = window.pageYOffset || document.documentElement.scrollTop;
@@ -127,7 +129,7 @@ $(document).ready(function() {
                 items: 3
             },
             1000: {
-                items: 6
+                items: 4
             }
         }
     });
@@ -148,10 +150,10 @@ $(document).ready(function() {
                 items: 3
             },
             900: {
+                margin:10,
+                loop:true,
+                autoWidth:true,
                 items: 3
-            },
-            1000: {
-                items: 6
             }
         }
     });
@@ -176,7 +178,7 @@ $(document).ready(function() {
                 items: 3
             },
             1000: {
-                items: 6
+                items: 4
             }
         }
     });

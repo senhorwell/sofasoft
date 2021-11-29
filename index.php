@@ -12,7 +12,7 @@
 </div>
 
 
-<div id="icones-box" class="container-fluid px-0 mx-0">
+<div id="icones-box" class="container-fluid d-flex justify-content-center px-0 mx-0">
     <div class="home container d-inline-flex flex-wrap justify-content-between">
         <div class="col-3 d-flex flex-column align-items-center text-center">
             <div class="svg-icon text-center">
