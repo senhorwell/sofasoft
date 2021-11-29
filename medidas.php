@@ -1,6 +1,6 @@
 <div class="medidas owl-carousel owl-theme">
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Medida mínima</strong></h1>
+        <h1 class="title text-center px-5"><strong>Medida mínima</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -13,7 +13,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Medida máxima</strong></h1>
+        <h1 class="title text-center px-5"><strong>Medida máxima</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -26,7 +26,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Profundidade c/ retrátil aberto</strong></h1>
+        <h1 class="title text-center px-5"><strong>Profundidade c/ retrátil aberto</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -39,7 +39,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Profundidade mínima fechado</strong></h1>
+        <h1 class="title text-center px-5"><strong>Profundidade mínima fechado</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -52,7 +52,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Altura total</strong></h1>
+        <h1 class="title text-center px-5"><strong>Altura total</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -65,7 +65,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Tipo almofada do encosto</strong></h1>
+        <h1 class="title text-center px-5"><strong>Tipo almofada do encosto</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -78,7 +78,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Tipo de encosto</strong></h1>
+        <h1 class="title text-center px-5"><strong>Tipo de encosto</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -91,7 +91,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Opção de assento fixo</strong></h1>
+        <h1 class="title text-center px-5"><strong>Opção de assento fixo</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -104,7 +104,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Altura do chão ao assento</strong></h1>
+        <h1 class="title text-center px-5"><strong>Altura do chão ao assento</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -117,7 +117,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Altura almofada do encosto</strong></h1>
+        <h1 class="title text-center px-5"><strong>Altura almofada do encosto</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -130,7 +130,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Opções de assentos</strong></h1>
+        <h1 class="title text-center px-5"><strong>Opções de assentos</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -143,7 +143,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Opcional abertura automática</strong></h1>
+        <h1 class="title text-center px-5"><strong>Opcional abertura automática</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -156,7 +156,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Opcional  massageador</strong></h1>
+        <h1 class="title text-center px-5"><strong>Opcional  massageador</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -169,7 +169,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Opção USB</strong></h1>
+        <h1 class="title text-center px-5"><strong>Opção USB</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -182,7 +182,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Opção impermeável</strong></h1>
+        <h1 class="title text-center px-5"><strong>Opção impermeável</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -195,7 +195,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Opção canto</strong></h1>
+        <h1 class="title text-center px-5"><strong>Opção canto</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>
@@ -208,7 +208,7 @@
     </div>
 
     <div class="item d-flex justify-content-center align-items-center flex-column">
-        <h1 class="title text-center"><strong>Largura mínima dos braços</strong></h1>
+        <h1 class="title text-center px-5"><strong>Largura mínima dos braços</strong></h1>
 
         <div class="card" style="width: 18rem;">
             <p class="estilo m-0 pt-4 pb-1 text-center">Moma</p>

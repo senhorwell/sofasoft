@@ -19,7 +19,7 @@
         <div class="col-4 py-2 form-block">
             <div class="card-block p-0 text-center">
                 <div class="pic bg-white d-flex flex-column justify-content-between align-items-center">
-                    <a href="#">Ficou em dúvidas?</a>
+                    <a href="#">Ficou em dúvida?</a>
                     <a id="saiba-mais-button" href="#">Saiba mais ></a>
                     <!-- Modal -->
                     <div class="modal fade" id="saiba-mais-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
