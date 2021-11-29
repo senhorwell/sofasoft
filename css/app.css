@@ -8,6 +8,14 @@
     src: url("https://www.fronte.net.br/clientes/sofasoft/font/raleway-bold.woff2") format("woff2"), url("https://www.fronte.net.br/clientes/sofasoft/font/raleway-bold.woff") format("woff");
 }
 
+.d-flex {
+    display: flex;
+    display: -webkit-flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
 strong {
     font-family: 'Raleway-bold' !important;
 }

@@ -372,8 +372,7 @@
         <h4 class="text-dark fw-bold text-center mb-0 px-5">Ajuda para comprar</h4>
         <p class="text-center p-0 m-0">Converse com um especialista online ou ligue para:</p>
         <a href="tel:5543991025500">(43) 9 9102-5500</a>
-        <button type="button" class="pt-3 btn-link" data-bs-toggle="modal" data-bs-target="#ajudaModal">Saiba mais
-            ></button>
+        <button type="button" class="pt-3 btn-link" data-bs-toggle="modal" data-bs-target="#ajudaModal">Falar no chat ></button>
         <div class="modal fade" id="ajudaModal" tabindex="-1" aria-labelledby="ajudaModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
