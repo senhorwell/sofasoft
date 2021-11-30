@@ -1,28 +1,34 @@
 <?php include 'header.php';?>
 <?php include 'price-last.php';?>
+<div class="container-fluid px-0 mx-0" style="margin-top:65px">
+    <?php include 'menu.php';?>
+</div>
     <div class="container-fluid pt-32 px-0">
         <div class="container py-16 d-flex justify-content-center align-items-center text-center">
-            <div class="col-6 d-flex justify-content-around align-items-center">  
-                <a href="step1.php">
+            <div class="col-12 col-md-6 d-flex justify-content-evenly align-items-center">  
+                <a class="d-flex flex-column justify-content-center align-items-center" href="step1.php">
                     <i class="step1 step d-flex justify-content-center align-items-center">
                         1
                     </i>
+                    <p class="title m-0">Escolha<br>seu estilo</p>
                 </a>
                 <i class="d-flex justify-content-center align-items-center">
                     <?php include 'img/svg/traco-step.svg';?>
                 </i>
-                <a href="step2.php">
+                <a class="d-flex flex-column justify-content-center align-items-center" href="step2.php">
                     <i class="step2 step d-flex justify-content-center align-items-center">
                         2
                     </i>
+                    <p class="title">Personalize</p>
                 </a>
                 <i class="d-flex justify-content-center align-items-center">
                     <?php include 'img/svg/traco-step.svg';?>
                 </i>
-                <a href="#">
+                <a class="d-flex flex-column justify-content-center align-items-center" href="#">
                     <i class="step3 step selected d-flex justify-content-center align-items-center">
                         3
                     </i>
+                    <p class="title"></p>
                 </a>
             </div>
         </div>

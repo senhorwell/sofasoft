@@ -109,9 +109,14 @@ h1.fw-bold {
 }
 
 h1.title,
-h2.title {
+h2.title,
+p.title {
     color: #94bece;
     font-family: 'Raleway';
+}
+
+p.title{
+    font-size: 14px;
 }
 
 .principal h1.title,
@@ -446,9 +451,6 @@ h2.title strong {
     height: 140%;
 }
 
-.modal-body h1.title strong {
-    font-size: 24px !important;
-}
 .modal-body h1 strong {
     color: #36445f !important;
 }

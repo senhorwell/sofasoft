@@ -6,28 +6,45 @@
 
     <div class="container-fluid py-32 px-0">
         <div class="container pb-32 d-flex justify-content-center align-items-center text-center">
-            <div class="col-6 d-flex justify-content-around align-items-center">  
-                <a href="">
+            <div class="col-12 col-md-6 d-flex justify-content-evenly align-items-center">  
+                <a class="d-flex flex-column justify-content-center align-items-center" href="">
                     <i class="step1 step selected d-flex justify-content-center align-items-center">
                         1
                     </i>
+                    <p class="title"></p>
                 </a>
                 <i class="d-flex justify-content-center align-items-center">
                     <?php include 'img/svg/traco-step.svg';?>
                 </i>
-                <a href="">
+                <button type="button" class="btn-link p-0 d-flex flex-column justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#naoPermitido">
                     <i class="step2 step d-flex justify-content-center align-items-center">
                         2
                     </i>
-                </a>
+                    <p class="title">Personalize</p>
+                </button>
                 <i class="d-flex justify-content-center align-items-center">
                     <?php include 'img/svg/traco-step.svg';?>
                 </i>
-                <a href="">
+                <button type="button" class="btn-link p-0 d-flex flex-column justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#naoPermitido">
                     <i class="step3 step d-flex justify-content-center align-items-center">
                         3
                     </i>
-                </a>
+                    <p class="title">Experiente</p>
+                </button>
+                <div class="modal fade pt-32 mt-5" id="naoPermitido" tabindex="-1" aria-labelledby="naoPermitidoLabel" aria-hidden="true">
+                    <div class="modal-dialog mx-0 px-0">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body px-0">
+                                <div class="container-fluid p-0 m-0 d-flex justify-content-center flex-column text-center">
+                                    <h1 class="title">Antes de prosseguir,<br><strong>escolha seu estilo</strong></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container d-flex justify-content-center align-items-center text-center">
